@@ -71,3 +71,6 @@ deploy:
   type: git
   repository: https://github.com/zlargon/blog.git
   branch: gh-pages
+
+# Disqus
+disqus_shortname: zlargon

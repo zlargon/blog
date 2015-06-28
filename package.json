@@ -1,9 +1,14 @@
 {
-  "name": "hexo-site",
+  "name": "zlargon-blog",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.1.1"
+  },
+  "scripts": {
+    "icarus": "cp themes/icarus.yml themes/icarus/_config.yml",
+    "start":  "npm run icarus ; hexo server",
+    "deploy": "npm run icarus ; hexo generate ; hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.1.0",

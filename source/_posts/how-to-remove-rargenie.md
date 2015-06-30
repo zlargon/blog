@@ -88,12 +88,17 @@ ___推論：`launchd` 會去監聽 `~/Downloads` 的檔案變化，如果事件�
 我在 google 上找到這位大神的文章，對於 `launchd` 做了非常詳細的說明
 
 [Mac OS X 的 Launch Daemon / Agent](https://blog.yorkxin.org/posts/2011/08/04/osx-launch-daemon-agent/)
+
 ___在使用者登入以後，會執行屬於該使用者的 launchd ，負責處理 Launch Agent ，做的事跟上面載入 Launch Daemon 很像，差別在於它從以下的目錄載入 plist：___
 * ___`/System/Library/LaunchAgents`___
 * ___`/Library/LaunchAgents`___
 * ___`~/Library/LaunchAgents`___
 
 ___由使用者執行的任何程式也都是 launchd 來執行的，所以 launchd 也是該使用者的所有 processes 之母。___
+
+因此除了要把 `~/Library/Application\ Support` 底下的 `Listchack.app` 移除之外
+
+也要到這三個目錄下去檢查是否有相關的 `.plist`，全部要一併刪除
 
 ---
 
@@ -110,3 +115,15 @@ ___由使用者執行的任何程式也都是 launchd 來執行的，所以 laun
 然後我檢查了一下 `~/Library/Application\ Support/`，我居然也有中 `Texiday`
 
 二話不說，趕緊刪掉!!
+
+---
+
+## Script
+
+另外，由於看 Apple 官方提供的文件，要一個一個手動刪除 malware 實在太累了
+
+因此我寫了一個 shell script，並且放到 Gist
+
+[remove_malware.sh](https://gist.github.com/zlargon/3253fefdde55041a7d5e)
+
+可以自行下載使用 : )

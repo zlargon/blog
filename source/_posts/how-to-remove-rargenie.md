@@ -1,4 +1,4 @@
-title: "[MAC] 如何刪除 RarGenie"
+title: "如何刪除 RarGenie"
 date: 2015-06-29 22:10:46
 categories: MAC
 tags:

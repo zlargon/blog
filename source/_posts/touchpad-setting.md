@@ -35,7 +35,7 @@ Mac 裡面預設可以修改的觸控手勢非常的少
 
 如果我們希望 Mac 可以支援更多手勢的話，就必須要靠 Better Touch Tool 來輔助
 
-[Better Touch Tool 官方網站](http://www.bettertouchtool.net/)
+官方網址：http://www.bettertouchtool.net/
 
 他主要支援兩大功能：
 

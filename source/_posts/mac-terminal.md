@@ -2,7 +2,7 @@ title: "終端機 iTerm2 及設定 bash_profile"
 date: 2015-10-05 17:41:52
 categories: MAC
 tags:
-	- iTerm2
+    - iTerm2
 ---
 
 {% asset_img "iterm2_icon.png" "iTerm2" %}

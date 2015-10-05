@@ -2,7 +2,7 @@ title: "觸控板設定及 Better Touch Tool"
 date: 2015-10-05 03:18:20
 categories: MAC
 tags:
-	- BetterTouchTool
+    - BetterTouchTool
 ---
 
 {% asset_img "bettertouchtool_icon.png" "Better Touch Tool" %}

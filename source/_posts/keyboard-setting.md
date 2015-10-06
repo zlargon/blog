@@ -1,6 +1,8 @@
 title: "自訂鍵盤及 Karabiner"
 date: 2015-10-05 13:22:20
-categories: MAC
+categories:
+    - MAC
+    - 軟體工具
 tags:
     - Karabiner
 ---

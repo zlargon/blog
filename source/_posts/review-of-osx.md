@@ -1,6 +1,8 @@
 title: "OS X 原廠設定真的很難用"
 date: 2015-10-05 00:33:16
-categories: MAC
+categories:
+    - MAC
+    - 其他
 tags:
 ---
 

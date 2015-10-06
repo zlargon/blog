@@ -1,6 +1,8 @@
 title: "避免 iPhone 連接 Mac 時，自動啟動 iTunes、iPhoto、Photos"
 date: 2015-10-06 17:26:00
-categories: MAC
+categories:
+    - MAC
+    - 其他
 tags:
     - iTunes
     - iPhoto

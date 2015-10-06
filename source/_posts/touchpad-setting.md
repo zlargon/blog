@@ -1,6 +1,8 @@
 title: "觸控板設定及 BetterTouchTool"
 date: 2015-10-05 03:18:20
-categories: MAC
+categories:
+    - MAC
+    - 軟體工具
 tags:
     - BetterTouchTool
 ---

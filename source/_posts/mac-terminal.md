@@ -1,6 +1,8 @@
 title: "終端機 iTerm2 及設定 bash_profile"
 date: 2015-10-05 17:41:52
-categories: MAC
+categories:
+    - MAC
+    - 軟體工具
 tags:
     - iTerm2
 ---

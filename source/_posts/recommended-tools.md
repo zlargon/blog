@@ -1,11 +1,13 @@
-title: "11 個推薦的軟體工具"
+title: "推薦的軟體工具"
 date: 2015-10-05 19:37:57
 categories: MAC
 tags:
     - Alfred
     - AppCleaner
+    - BetterTouchTool
     - CheatSheet
     - Chrome
+    - Karabiner
     - Memory Clean
     - Nally
     - Parallels Desktop
@@ -14,6 +16,24 @@ tags:
     - TeamViewer
     - VLC
 ---
+
+| 		| 應用程式 			| 簡介 							| 推薦 		|
+| --- 	| --- 				| --- 							| --- 		|
+| 1 	| Alfred 2 			| 自訂指令熱鍵神器					| ★★★★★★ 	|
+| 2 	| AppCleaner 		| 完整移除 App 及相關資料			| ★★★★★ 	|
+| 3 	| BetterTouchTool 	| 自訂觸控板設定、自動調整視窗大小	| ★★★★★★ 	|
+| 4 	| CheatSheet 		| 顯示應用程式的快捷鍵列表			| ★★★ 		|
+| 5 	| Chrome 			| 網頁瀏覽器						| ★★★★★ 	|
+| 6 	| Karabiner 		| 自訂鍵盤設定					| ★★★★★ 	|
+| 7 	| Memory Clean 		| 監控記憶體，釋放記憶體			| ★★★★ 		|
+| 8 	| Nally 			| BBS 瀏覽器						| ★★★★ 		|
+| 9 	| Parallels Desktop | 虛擬機 						| ★★★★ 		|
+| 10 	| Skim 				| PDF 預覽器						| ★★★★ 		|
+| 11 	| Skitch 			| 簡易圖文編輯軟體					| ★★★★★ 	|
+| 12 	| Teamviewer 		| 遠端桌面						| ★★★★★ 	|
+| 13 	| VLC 				| 多媒體播放器					| ★★★★★ 	|
+
+<br>
 
 {% asset_img "alferd.png" "Alferd 2" %}
 
@@ -58,9 +78,21 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 <br>
 
+{% asset_img "bettertouchtool.png" "BetterTouchTool" %}
+
+# 3. BetterTouchTool （★★★★★★）
+
+神器等級的工具，可自訂觸控板設定、自動調整視窗大小
+
+請參考這篇：{% link "觸控板設定及 BetterTouchTool" http://zlargon.github.io/blog/2015/10/05/keyboard-setting/ %}
+
+內有圖文並茂的設定教學
+
+<br>
+
 {% asset_img "cheatsheet.png" "CheatSheet" %}
 
-# 3. CheatSheet （★★★）
+# 4. CheatSheet （★★★）
 
 官方網站：http://www.mediaatelier.com/CheatSheet/
 
@@ -74,7 +106,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "chrome.png" "Google Chrome" %}
 
-# 4. Chrome （★★★★★）
+# 5. Chrome （★★★★★）
 
 官方網站：https://www.google.com.tw/chrome/browser/desktop/
 
@@ -82,9 +114,19 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 <br>
 
+{% asset_img "karabiner.png" "Karabiner" %}
+
+# 6. Karabiner （★★★★★）
+
+自訂鍵盤設定
+
+請參考這篇：{% link "自訂鍵盤及 Karabiner" http://zlargon.github.io/blog/2015/10/05/keyboard-setting/  %}
+
+內有圖文並茂的設定教學
+
 {% asset_img "memory_clean.png" "Memory Clean" %}
 
-# 5. Memory Clean （★★★★）
+# 7. Memory Clean （★★★★）
 
 官方網站：https://fiplab.com/apps/memory-clean-for-mac
 
@@ -98,7 +140,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "nally.png" "Nally" %}
 
-# 6. Nally （★★★★）
+# 8. Nally （★★★★）
 
 官方網站：http://yllan.org/app/Nally/
 
@@ -114,7 +156,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "parallels_desktop.jpg" "Parallels Desktop" %}
 
-# 7. Parallels Desktop （★★★★）
+# 9. Parallels Desktop （★★★★）
 
 官方網站：http://www.parallels.com/tw/
 
@@ -134,11 +176,11 @@ Parallels Desktop 目前出到 11 版
 
 Parallels Desktop 大約每次 Apple 發布新版的作業系統時，也會一併發佈新的版本
 
-| Parallels Desktop 	| Mac OS X 				| 日期 			|
-| --- 					| --- 					| --- 			|
-| Parallels Desktop 9 	| OS X 10.9  Mavericks 	| 2013.10.22 	|
-| Parallels Desktop 10 	| OS X 10.10 Yosemite 	| 2014.10.16 	|
-| Parallels Desktop 11 	| OS X 10.9  El Capitan	| 2015.09.30 	|
+| Parallels Desktop     | Mac OS X              | 日期            |
+| ---                   | ---                   | ---           |
+| Parallels Desktop 9   | OS X 10.9  Mavericks  | 2013.10.22    |
+| Parallels Desktop 10  | OS X 10.10 Yosemite   | 2014.10.16    |
+| Parallels Desktop 11  | OS X 10.9  El Capitan | 2015.09.30    |
 
 我有買正版的 PD9 和 PD10，其實真的不便宜
 
@@ -162,7 +204,7 @@ Parallels Desktop 大約每次 Apple 發布新版的作業系統時，也會一�
 
 {% asset_img "skim.png" "Skim" %}
 
-# 8. Skim （★★★★）
+# 10. Skim （★★★★）
 
 官方網站：http://skim-app.sourceforge.net/
 
@@ -172,7 +214,7 @@ Parallels Desktop 大約每次 Apple 發布新版的作業系統時，也會一�
 
 {% asset_img "skitch.png" "Skitch" %}
 
-# 9. Skitch （★★★★★）
+# 11. Skitch （★★★★★）
 
 官方網站：https://evernote.com/intl/zh-tw/skitch/
 
@@ -190,7 +232,7 @@ Skitch 也有推出 Android 跟 iOS 版本的 App
 
 {% asset_img "teamviewer.jpg" "TeamViewer" %}
 
-# 10. Teamviewer （★★★★★）
+# 12. Teamviewer （★★★★★）
 
 官方網站：https://www.teamviewer.com/zhTW/
 
@@ -204,7 +246,7 @@ Skitch 也有推出 Android 跟 iOS 版本的 App
 
 {% asset_img "vlc.png" "VLC" %}
 
-# 11. VLC （★★★★★）
+# 13. VLC （★★★★★）
 
 官方網站：http://www.videolan.org/vlc/
 

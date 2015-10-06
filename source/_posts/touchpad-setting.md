@@ -1,4 +1,4 @@
-title: "觸控板設定及 Better Touch Tool"
+title: "觸控板設定及 BetterTouchTool"
 date: 2015-10-05 03:18:20
 categories: MAC
 tags:

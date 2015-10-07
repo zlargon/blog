@@ -2,7 +2,7 @@ title: "iPhone 相簿照片無法刪除"
 date: 2015-10-06 21:14:06
 categories:
     - iOS
-    - 其他
+    - others
 tags:
     - iTunes
     - iPhoto

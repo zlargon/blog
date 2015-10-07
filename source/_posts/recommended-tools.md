@@ -2,7 +2,7 @@ title: "推薦的軟體工具"
 date: 2015-10-05 19:37:57
 categories:
     - MAC
-    - 軟體工具
+    - tools
 tags:
     - Alfred
     - AppCleaner

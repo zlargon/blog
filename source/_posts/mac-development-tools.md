@@ -2,7 +2,7 @@ title: "推薦的開發工具"
 date: 2015-10-06 12:35:21
 categories:
     - MAC
-    - 軟體工具
+    - tools
 tags:
     - Xcode
     - iTerm2

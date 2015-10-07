@@ -2,7 +2,7 @@ title: "如何刪除 RarGenie"
 date: 2015-06-29 22:10:46
 categories:
     - MAC
-    - 其他
+    - others
 tags:
     - 惡意軟體
     - RarGenie

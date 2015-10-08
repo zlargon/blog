@@ -86,7 +86,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 神器等級的工具，可自訂觸控板設定、自動調整視窗大小
 
-請參考這篇：{% link "觸控板設定及 BetterTouchTool" http://zlargon.github.io/blog/2015/10/05/keyboard-setting/ %}
+請參考這篇：{% link "觸控板設定及 BetterTouchTool" http://zlargon.github.io/blog/MAC/tools/touchpad-setting/ %}
 
 內有圖文並茂的設定教學
 
@@ -122,7 +122,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 自訂鍵盤設定
 
-請參考這篇：{% link "自訂鍵盤及 Karabiner" http://zlargon.github.io/blog/2015/10/05/keyboard-setting/  %}
+請參考這篇：{% link "自訂鍵盤及 Karabiner" http://zlargon.github.io/blog/MAC/tools/keyboard-setting/ %}
 
 內有圖文並茂的設定教學
 

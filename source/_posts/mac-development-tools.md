@@ -63,7 +63,7 @@ Xcode 是開發者必裝的軟體，包含了 IDE, `Command Line Tools`, `Clang 
 
 Mac 神器等級的終端機
 
-請參考這篇：{% link "終端機 iTerm2 及設定 bash_profile" http://zlargon.github.io/blog/2015/10/05/mac-terminal/  %}
+請參考這篇：{% link "終端機 iTerm2 及設定 bash_profile" http://zlargon.github.io/blog/MAC/tools/mac-terminal/ %}
 
 內有圖文並茂的設定教學
 

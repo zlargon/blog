@@ -105,6 +105,28 @@ brew install git
 
 <br>
 
+### Git Completion
+
+git 在 Linux 上預設就可以使用 tab 鍵自動完成指令
+
+但是 Mac 上預設卻沒有這個功能，必須要額外下載 git-completion.bash 的腳本
+
+我們可以從 git 的 github，找到 [git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) 的腳本
+
+{% codeblock lang:bash %}
+# 使用 curl 下載到 home 目錄，並且改名為 .git-completion.sh
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/.git-completion.sh
+{% endcodeblock %}
+
+接著修改 `~/.bash_profile` 新增以下內容，再重開終端機就行了
+
+{% codeblock lang:bash %}
+# git bash completion
+[ -f ~/.git-completion.sh ] && . ~/.git-completion.sh
+{% endcodeblock %}
+
+<br>
+
 ### Mac File System 不分大小寫
 
 Linux 的 File System 會區分大小寫不同的檔案

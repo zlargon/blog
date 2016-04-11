@@ -6,7 +6,7 @@
     "version": "3.2.0"
   },
   "scripts": {
-    "config:theme": "cp themes/icarus_v0.1.yml themes/icarus/_config.yml",
+    "config:theme": "cp themes/icarus_v0.2.yml themes/icarus/_config.yml",
     "start": "npm run config:theme; hexo clean; hexo server",
     "deploy": "npm run config:theme; hexo clean; hexo generate --deploy"
   },

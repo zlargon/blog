@@ -6,9 +6,9 @@
     "version": "3.1.1"
   },
   "scripts": {
-    "icarus": "cp themes/icarus.yml themes/icarus/_config.yml",
-    "start": "npm run icarus; hexo clean; hexo server",
-    "deploy": "npm run icarus; hexo clean; hexo generate --deploy"
+    "config:theme": "cp themes/icarus_v0.1.yml themes/icarus/_config.yml",
+    "start": "npm run config:theme; hexo clean; hexo server",
+    "deploy": "npm run config:theme; hexo clean; hexo generate --deploy"
   },
   "dependencies": {
     "hexo": "^3.1.1",

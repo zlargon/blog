@@ -20,7 +20,7 @@ customize:
         author: zlargon
         author_title: Software Developer
         location: Hsinchu, Taiwan
-        # follow: https://github.com/ppoffice/
+        follow: https://github.com/zlargon
     highlight: monokai
     sidebar: right                                                      # sidebar position, options = left, right
     thumbnail: true                                                     # enable posts thumbnail, options = true, false

@@ -19,7 +19,7 @@ customize:
         gravatar:                                                       # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: zlargon
         author_title: Software Developer
-        location: Hsinchu, Taiwan
+        location: Taichung, Taiwan
         follow: https://github.com/zlargon
     highlight: monokai
     sidebar: right                                                      # sidebar position, options = left, right

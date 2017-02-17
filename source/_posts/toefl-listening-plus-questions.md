@@ -111,7 +111,7 @@ tags:
 
 3. __How will the director of security verify the student's identity?__
 
-    * By asking her the ID number
+    * By locating her information in the computer
 
 4. __What does the man imply about the student's meal pass?__
 
@@ -171,7 +171,7 @@ tags:
 
 4. __What is the professor's opinion of Wordsworth's poetry?__
 
-    * He thinks Wordsworth's work fell off over time.
+    * He agrees with the view of nature it presents.
 
 5. __Why does the professor say this?__
 

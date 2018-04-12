@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Mac Reinstallation Note | zlargon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="1. Mac Reinstallhttps://support.apple.com/en-us/HT204904https://support.apple.com/en-us/HT204156 2. iTerm2 and .bash_profilehttps://zlargon.github.io/blog/MAC/tools/mac-terminal/ Download iTerm2:https">
+<meta name="keywords" content="MAC">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac Reinstallation Note">
+<meta property="og:url" content="https://zlargon.github.io/blog/MAC/others/reinstall-mac/index.html">
+<meta property="og:site_name" content="zlargon">
+<meta property="og:description" content="1. Mac Reinstallhttps://support.apple.com/en-us/HT204904https://support.apple.com/en-us/HT204156 2. iTerm2 and .bash_profilehttps://zlargon.github.io/blog/MAC/tools/mac-terminal/ Download iTerm2:https">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-04-12T19:43:19.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mac Reinstallation Note">
+<meta name="twitter:description" content="1. Mac Reinstallhttps://support.apple.com/en-us/HT204904https://support.apple.com/en-us/HT204156 2. iTerm2 and .bash_profilehttps://zlargon.github.io/blog/MAC/tools/mac-terminal/ Download iTerm2:https">
+    
+
+    
+
+    
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/2791834?v=3" />
+    
+
+    <link rel="stylesheet" href="/blog/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/blog/vendor/open-sans/styles.css">
+    <link rel="stylesheet" href="/blog/vendor/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <script src="/blog/vendor/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/blog/vendor/fancybox/jquery.fancybox.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-64605332-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+    
+
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/blog/" id="logo">
+                
+                <span class="site-title">zlargon</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/blog/.">Home</a>
+                
+                    <a class="main-nav-link" href="/blog/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/blog/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/blog/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/blog/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/blog/',
+        CONTENT_URL: '/blog/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/blog/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/blog/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+            <h2 id="name">zlargon</h2>
+            <h3 id="title">Software Developer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Taichung, Taiwan</span>
+            <a id="follow" target="_blank" href="https://github.com/zlargon">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                21
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                44
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/zlargon" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://fb.me/zlargon" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-reinstall-mac" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            Mac Reinstallation Note
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/others/reinstall-mac/">
+            <time datetime="2018-04-12T16:05:43.000Z" itemprop="datePublished">2018-04-12</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/MAC/">MAC</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h2 id="1-Mac-Reinstall"><a href="#1-Mac-Reinstall" class="headerlink" title="1. Mac Reinstall"></a>1. Mac Reinstall</h2><p><a href="https://support.apple.com/en-us/HT204904" target="_blank" rel="noopener">https://support.apple.com/en-us/HT204904</a><br><a href="https://support.apple.com/en-us/HT204156" target="_blank" rel="noopener">https://support.apple.com/en-us/HT204156</a></p>
+<h2 id="2-iTerm2-and-bash-profile"><a href="#2-iTerm2-and-bash-profile" class="headerlink" title="2. iTerm2 and .bash_profile"></a>2. iTerm2 and .bash_profile</h2><p><a href="https://zlargon.github.io/blog/MAC/tools/mac-terminal/">https://zlargon.github.io/blog/MAC/tools/mac-terminal/</a></p>
+<p><strong>Download iTerm2:</strong><br><a href="https://www.iterm2.com/downloads.html" target="_blank" rel="noopener">https://www.iterm2.com/downloads.html</a></p>
+<h2 id="3-Trackpad-and-BetterTouchTool"><a href="#3-Trackpad-and-BetterTouchTool" class="headerlink" title="3. Trackpad and BetterTouchTool"></a>3. Trackpad and BetterTouchTool</h2><p><a href="https://zlargon.github.io/blog/MAC/tools/touchpad-setting/">https://zlargon.github.io/blog/MAC/tools/touchpad-setting/</a></p>
+<p><strong>Download BetterTouchTool:</strong><br><a href="https://folivora.ai/downloads" target="_blank" rel="noopener">https://folivora.ai/downloads</a></p>
+<h2 id="4-Keyboard-and-Karabiner-Element"><a href="#4-Keyboard-and-Karabiner-Element" class="headerlink" title="4. Keyboard and Karabiner-Element"></a>4. Keyboard and Karabiner-Element</h2><p><a href="https://zlargon.github.io/blog/MAC/tools/keyboard-setting/">https://zlargon.github.io/blog/MAC/tools/keyboard-setting/</a></p>
+<p><strong>Download Karabiner-Element:</strong><br><a href="https://pqrs.org/osx/karabiner/" target="_blank" rel="noopener">https://pqrs.org/osx/karabiner/</a></p>
+<ul>
+<li><strong>Simple Modifications:</strong> Swap <code>left_control</code> and <code>left_command</code></li>
+<li><strong>Complex Modifications:</strong> <a href="karabiner://karabiner/assets/complex_modifications/import?url=https://cdn.rawgit.com/zlargon/e9e8a74bb74f56d908ca2cb8ad06427e/raw/765f396ab2ebe76d252116419d922fe3499de62f/karabiner_backslash_to_forward_delete.json" target="_blank" rel="noopener">Import Backslash to Forward Delete</a></li>
+</ul>
+<h2 id="5-Alfred-2"><a href="#5-Alfred-2" class="headerlink" title="5. Alfred 2"></a>5. Alfred 2</h2><p><strong>Download Alfred 2:</strong><br><a href="https://www.alfredapp.com/" target="_blank" rel="noopener">https://www.alfredapp.com/</a></p>
+<p><strong>Web Search:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Keyword</th>
+<th>Search URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Messenger</td>
+<td>msg</td>
+<td><code>https://www.messenger.com/</code></td>
+</tr>
+<tr>
+<td>Facebook</td>
+<td>fb</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Gmail</td>
+<td>g</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Google Maps</td>
+<td>m</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Translate</td>
+<td>f</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Yahoo Dictionary</td>
+<td>y</td>
+<td><code>https://tw.dictionary.yahoo.com/dictionary?p={query}</code></td>
+</tr>
+<tr>
+<td>Youtube</td>
+<td>you</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-Sublime-Text-3"><a href="#6-Sublime-Text-3" class="headerlink" title="6. Sublime Text 3"></a>6. Sublime Text 3</h2><p><strong>Download Sublime Text:</strong><br><a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">https://www.sublimetext.com/3</a></p>
+<p><strong>Sublime Text Command Line:</strong><br><a href="https://www.sublimetext.com/docs/3/osx_command_line.html" target="_blank" rel="noopener">https://www.sublimetext.com/docs/3/osx_command_line.html</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir ~/bin</div><div class="line">ln <span class="_">-s</span> <span class="string">"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"</span> ~/bin/subl</div></pre></td></tr></table></figure>
+<p><strong>Sublime Package Control</strong><br><a href="https://packagecontrol.io/installation" target="_blank" rel="noopener">https://packagecontrol.io/installation</a></p>
+<p><strong>Install Packages</strong></p>
+<ul>
+<li><code>HTML-CSS-JS Prettify</code></li>
+<li><code>Babel</code></li>
+<li><code>MarkdownLight</code></li>
+</ul>
+<p><strong>Preferences.sublime-setting</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"tab_size"</span>: <span class="number">2</span>,</div><div class="line">  <span class="attr">"translate_tabs_to_spaces"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="attr">"trim_trailing_white_space_on_save"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="attr">"ensure_newline_at_eof_on_save"</span>: <span class="literal">true</span>,</div><div class="line">  <span class="attr">"auto_complete_selector"</span>: <span class="string">"source, text"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><strong>auto_complete_selector:</strong> <a href="https://stackoverflow.com/questions/12656448/sublime-text-2-auto-completion-popup-does-not-work-properly" target="_blank" rel="noopener">https://stackoverflow.com/questions/12656448/sublime-text-2-auto-completion-popup-does-not-work-properly</a></p>
+<h2 id="7-Brew"><a href="#7-Brew" class="headerlink" title="7. Brew"></a>7. Brew</h2><p>Install Brew: <a href="https://brew.sh/" target="_blank" rel="noopener">https://brew.sh/</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>Note: It will also install <code>git</code>.</p>
+</blockquote>
+<h2 id="8-Node-js"><a href="#8-Node-js" class="headerlink" title="8. Node.js"></a>8. Node.js</h2><p><strong>Download nvm:</strong><br><a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">https://github.com/creationix/nvm</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># install nvm</span></div><div class="line">curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash</div><div class="line"> </div><div class="line"><span class="comment"># install node via nvm</span></div><div class="line">nvm ls-remote --lts</div><div class="line">nvm install --lts</div><div class="line"> </div><div class="line"><span class="comment"># update npm</span></div><div class="line">npm install -g npm</div><div class="line"> </div><div class="line"><span class="comment"># download yarn</span></div><div class="line">brew install yarn --without-node</div></pre></td></tr></table></figure>
+<h2 id="9-Git"><a href="#9-Git" class="headerlink" title="9. Git"></a>9. Git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install git</div></pre></td></tr></table></figure>
+<p><strong>Git Config:</strong><br><a href="https://zlargon.gitbooks.io/git-tutorial/content/config.html" target="_blank" rel="noopener">https://zlargon.gitbooks.io/git-tutorial/content/config.html</a></p>
+<p><strong>diff-so-fancy</strong><br><a href="https://github.com/so-fancy/diff-so-fancy" target="_blank" rel="noopener">https://github.com/so-fancy/diff-so-fancy</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yarn global add diff-so-fancy</div><div class="line">git config --global core.pager <span class="string">"diff-so-fancy | less --tabs=4 -RFX"</span></div></pre></td></tr></table></figure>
+<h2 id="10-Other-Apps"><a href="#10-Other-Apps" class="headerlink" title="10. Other Apps"></a>10. Other Apps</h2><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LINE</td>
+<td><a href="https://itunes.apple.com/us/app/line/id539883307?mt=12" target="_blank" rel="noopener">https://itunes.apple.com/us/app/line/id539883307?mt=12</a></td>
+</tr>
+<tr>
+<td>Wechat</td>
+<td><a href="https://itunes.apple.com/us/app/wechat/id836500024?mt=12" target="_blank" rel="noopener">https://itunes.apple.com/us/app/wechat/id836500024?mt=12</a></td>
+</tr>
+<tr>
+<td>Skitch</td>
+<td><a href="https://itunes.apple.com/us/app/skitch-snap-mark-up-share/id425955336?mt=12" target="_blank" rel="noopener">https://itunes.apple.com/us/app/skitch-snap-mark-up-share/id425955336?mt=12</a></td>
+</tr>
+<tr>
+<td>Memory Clean</td>
+<td><a href="https://itunes.apple.com/us/app/memory-clean-2-free-up-memory/id1114591412?mt=12" target="_blank" rel="noopener">https://itunes.apple.com/us/app/memory-clean-2-free-up-memory/id1114591412?mt=12</a></td>
+</tr>
+<tr>
+<td>Xcode</td>
+<td><a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" target="_blank" rel="noopener">https://itunes.apple.com/us/app/xcode/id497799835?mt=12</a></td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td><a href="https://www.google.com/chrome/" target="_blank" rel="noopener">https://www.google.com/chrome/</a></td>
+</tr>
+<tr>
+<td>AppCleaner</td>
+<td><a href="http://www.freemacsoft.net/appcleaner/`" target="_blank" rel="noopener">http://www.freemacsoft.net/appcleaner/`</a></td>
+</tr>
+<tr>
+<td>Skim</td>
+<td><a href="http://skim-app.sourceforge.net/" target="_blank" rel="noopener">http://skim-app.sourceforge.net/</a></td>
+</tr>
+<tr>
+<td>Acrobat Reader</td>
+<td><a href="https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html" target="_blank" rel="noopener">https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html</a></td>
+</tr>
+<tr>
+<td>Teamviewer</td>
+<td><a href="https://www.teamviewer.us/" target="_blank" rel="noopener">https://www.teamviewer.us/</a></td>
+</tr>
+<tr>
+<td>VLC</td>
+<td><a href="http://www.videolan.org/vlc/" target="_blank" rel="noopener">http://www.videolan.org/vlc/</a></td>
+</tr>
+<tr>
+<td>F.lux</td>
+<td><a href="https://justgetflux.com/" target="_blank" rel="noopener">https://justgetflux.com/</a></td>
+</tr>
+<tr>
+<td>Audacity</td>
+<td><a href="https://www.audacityteam.org/" target="_blank" rel="noopener">https://www.audacityteam.org/</a></td>
+</tr>
+<tr>
+<td>Anki</td>
+<td><a href="https://apps.ankiweb.net/" target="_blank" rel="noopener">https://apps.ankiweb.net/</a></td>
+</tr>
+<tr>
+<td>Keyboard Clean Tool</td>
+<td><a href="https://folivora.ai/keyboardcleantool/" target="_blank" rel="noopener">https://folivora.ai/keyboardcleantool/</a></td>
+</tr>
+<tr>
+<td>Android File Transter</td>
+<td><a href="https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/">https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/</a></td>
+</tr>
+</tbody>
+</table>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/others/reinstall-mac/" data-id="cjfwxuu690015ioonbhaxjs44" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/others/reinstall-mac/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/others/reinstall-mac/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/blog/Redmine/redmine-backup/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Redmine Backup</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/reinstall-mac/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/reinstall-mac/" class="title">Mac Reinstallation Note</a></p>
+                            <p class="item-date"><time datetime="2018-04-12T16:05:43.000Z" itemprop="datePublished">2018-04-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/redmine-backup/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/redmine-backup/redmine_and_mysql.png)" alt="Redmine Backup" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/redmine-backup/" class="title">Redmine Backup</a></p>
+                            <p class="item-date"><time datetime="2018-04-11T23:08:32.000Z" itemprop="datePublished">2018-04-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/how-to-reset-password-in-redmine/redmine_cannot_login.png)" alt="How to Reset Password in Redmine" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="title">How to Reset Password in Redmine</a></p>
+                            <p class="item-date"><time datetime="2018-01-08T01:41:48.000Z" itemprop="datePublished">2018-01-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/install-redmine-on-mac/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/install-redmine-on-mac/redmine.png)" alt="Install Redmine on Mac" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/install-redmine-on-mac/" class="title">Install Redmine on Mac</a></p>
+                            <p class="item-date"><time datetime="2017-10-10T23:46:51.000Z" itemprop="datePublished">2017-10-10</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/mac-camera-not-works/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/MAC/others/mac-camera-not-works/there_is_no_connected_camera.jpg)" alt="Mac 攝影機無法連接" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/mac-camera-not-works/" class="title">Mac 攝影機無法連接</a></p>
+                            <p class="item-date"><time datetime="2017-03-22T09:01:16.000Z" itemprop="datePublished">2017-03-22</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/">MAC</a><span class="category-list-count">14</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/others/">others</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/tools/">tools</a><span class="category-list-count">7</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Redmine/">Redmine</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/TOEFL/">TOEFL</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/">iOS</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/others/">others</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/misc/">misc</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/01/">January 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/03/">March 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/09/">September 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/10/">October 2015</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/blog/tags/Alfred/" style="font-size: 10px;">Alfred</a> <a href="/blog/tags/Android/" style="font-size: 10px;">Android</a> <a href="/blog/tags/AppCleaner/" style="font-size: 10px;">AppCleaner</a> <a href="/blog/tags/BetterTouchTool/" style="font-size: 15px;">BetterTouchTool</a> <a href="/blog/tags/Camera/" style="font-size: 10px;">Camera</a> <a href="/blog/tags/CheatSheet/" style="font-size: 10px;">CheatSheet</a> <a href="/blog/tags/Chrome/" style="font-size: 15px;">Chrome</a> <a href="/blog/tags/Karabiner/" style="font-size: 15px;">Karabiner</a> <a href="/blog/tags/LadioCast/" style="font-size: 10px;">LadioCast</a> <a href="/blog/tags/Listchack/" style="font-size: 10px;">Listchack</a> <a href="/blog/tags/MAC/" style="font-size: 15px;">MAC</a> <a href="/blog/tags/Memory-Clean/" style="font-size: 10px;">Memory Clean</a> <a href="/blog/tags/MySQL/" style="font-size: 10px;">MySQL</a> <a href="/blog/tags/Nally/" style="font-size: 10px;">Nally</a> <a href="/blog/tags/Parallels-Desktop/" style="font-size: 10px;">Parallels Desktop</a> <a href="/blog/tags/Photos/" style="font-size: 10px;">Photos</a> <a href="/blog/tags/Quick-Time/" style="font-size: 10px;">Quick Time</a> <a href="/blog/tags/RarGenie/" style="font-size: 10px;">RarGenie</a> <a href="/blog/tags/Redmine/" style="font-size: 20px;">Redmine</a> <a href="/blog/tags/Skim/" style="font-size: 10px;">Skim</a> <a href="/blog/tags/Skitch/" style="font-size: 10px;">Skitch</a> <a href="/blog/tags/Soundflower/" style="font-size: 10px;">Soundflower</a> <a href="/blog/tags/SublimeText/" style="font-size: 10px;">SublimeText</a> <a href="/blog/tags/TOEFL/" style="font-size: 15px;">TOEFL</a> <a href="/blog/tags/TeamViewer/" style="font-size: 10px;">TeamViewer</a> <a href="/blog/tags/TextWrangler/" style="font-size: 10px;">TextWrangler</a> <a href="/blog/tags/VLC/" style="font-size: 10px;">VLC</a> <a href="/blog/tags/Xcode/" style="font-size: 10px;">Xcode</a> <a href="/blog/tags/brew/" style="font-size: 10px;">brew</a> <a href="/blog/tags/git/" style="font-size: 10px;">git</a> <a href="/blog/tags/iPhoto/" style="font-size: 15px;">iPhoto</a> <a href="/blog/tags/iSight/" style="font-size: 10px;">iSight</a> <a href="/blog/tags/iTerm2/" style="font-size: 15px;">iTerm2</a> <a href="/blog/tags/iTunes/" style="font-size: 15px;">iTunes</a> <a href="/blog/tags/repo/" style="font-size: 10px;">repo</a> <a href="/blog/tags/中文輸入法/" style="font-size: 10px;">中文輸入法</a> <a href="/blog/tags/分類字彙/" style="font-size: 10px;">分類字彙</a> <a href="/blog/tags/加試/" style="font-size: 10px;">加試</a> <a href="/blog/tags/字神帝國/" style="font-size: 10px;">字神帝國</a> <a href="/blog/tags/惡意軟體/" style="font-size: 10px;">惡意軟體</a> <a href="/blog/tags/星期/" style="font-size: 10px;">星期</a> <a href="/blog/tags/曜日/" style="font-size: 10px;">曜日</a> <a href="/blog/tags/神話/" style="font-size: 10px;">神話</a> <a href="/blog/tags/行星/" style="font-size: 10px;">行星</a>
+        </div>
+    </div>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 zlargon<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'zlargon';
+    
+    
+    var disqus_url = 'https://zlargon.github.io/blog/MAC/others/reinstall-mac/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        <script src="/blog/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/blog/js/main.js"></script>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>OS X 原廠設定真的很難用 | zlargon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="幾年前為了工作需求要開發跨平台的 App 由於 Apple 有限制開發者一定要使用 OSX 的環境才能開發 App 當時公司就只有一台 Mac mini，而 Mac 的鍵盤無法與一般鍵盤直接對應，用起來十分苦手 另外一個問題是，我想在下班後繼續研究 OSX，培養感情 但是 Mac mini 帶來帶去又非常不方便 所以一氣之下，就自己買了一台二手的 Macbook Pro   我心裡 OS: 為什">
+<meta property="og:type" content="article">
+<meta property="og:title" content="OS X 原廠設定真的很難用">
+<meta property="og:url" content="https://zlargon.github.io/blog/MAC/tools/review-of-osx/index.html">
+<meta property="og:site_name" content="zlargon">
+<meta property="og:description" content="幾年前為了工作需求要開發跨平台的 App 由於 Apple 有限制開發者一定要使用 OSX 的環境才能開發 App 當時公司就只有一台 Mac mini，而 Mac 的鍵盤無法與一般鍵盤直接對應，用起來十分苦手 另外一個問題是，我想在下班後繼續研究 OSX，培養感情 但是 Mac mini 帶來帶去又非常不方便 所以一氣之下，就自己買了一台二手的 Macbook Pro   我心裡 OS: 為什">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://zlargon.github.io/blog/MAC/tools/review-of-osx/os_x_el_capitan.jpg">
+<meta property="og:updated_time" content="2018-04-12T16:00:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OS X 原廠設定真的很難用">
+<meta name="twitter:description" content="幾年前為了工作需求要開發跨平台的 App 由於 Apple 有限制開發者一定要使用 OSX 的環境才能開發 App 當時公司就只有一台 Mac mini，而 Mac 的鍵盤無法與一般鍵盤直接對應，用起來十分苦手 另外一個問題是，我想在下班後繼續研究 OSX，培養感情 但是 Mac mini 帶來帶去又非常不方便 所以一氣之下，就自己買了一台二手的 Macbook Pro   我心裡 OS: 為什">
+<meta name="twitter:image" content="https://zlargon.github.io/blog/MAC/tools/review-of-osx/os_x_el_capitan.jpg">
+    
+
+    
+
+    
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/2791834?v=3" />
+    
+
+    <link rel="stylesheet" href="/blog/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/blog/vendor/open-sans/styles.css">
+    <link rel="stylesheet" href="/blog/vendor/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <script src="/blog/vendor/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/blog/vendor/fancybox/jquery.fancybox.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-64605332-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+    
+
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/blog/" id="logo">
+                
+                <span class="site-title">zlargon</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/blog/.">Home</a>
+                
+                    <a class="main-nav-link" href="/blog/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/blog/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/blog/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/blog/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/blog/',
+        CONTENT_URL: '/blog/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/blog/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/blog/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+            <h2 id="name">zlargon</h2>
+            <h3 id="title">Software Developer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Taichung, Taiwan</span>
+            <a id="follow" target="_blank" href="https://github.com/zlargon">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                21
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                44
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/zlargon" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://fb.me/zlargon" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main"><article id="post-review-of-osx" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+            OS X 原廠設定真的很難用
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/tools/review-of-osx/">
+            <time datetime="2015-10-05T04:33:16.000Z" itemprop="datePublished">2015-10-05</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/tools/">tools</a>
+    </div>
+
+                    
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/MAC/tools/review-of-osx/os_x_el_capitan.jpg" title="OS X El Capitan">
+<p>幾年前為了工作需求要開發跨平台的 App</p>
+<p>由於 Apple 有限制開發者一定要使用 OSX 的環境才能開發 App</p>
+<p>當時公司就只有一台 Mac mini，而 Mac 的鍵盤無法與一般鍵盤直接對應，用起來十分苦手</p>
+<p>另外一個問題是，我想在下班後繼續研究 OSX，培養感情</p>
+<p>但是 Mac mini 帶來帶去又非常不方便</p>
+<p>所以一氣之下，就自己買了一台二手的 Macbook Pro</p>
+<p><br></p>
+<img src="/blog/MAC/tools/review-of-osx/mac_keyboard.jpeg" title="Mac Keyboard">
+<p>我心裡 OS: 為什麼 Apple 要把 <code>control</code> 換成 <code>cmd</code> 呢!!?</p>
+<p>我是有聽過一個傳聞是說，其實是微軟先抄襲蘋果個人電腦，然後故意把 <code>cmd</code> 換成 <code>control</code> 鍵，故意要有所區別</p>
+<p>在 Mac 的世界裡，大都是使用 <code>cmd</code> 鍵，至於 <code>control</code> 鍵幾乎是毫無作用的</p>
+<p><br></p>
+<p>正式開始接觸 OSX 作業系統的時候，真的是極為不習慣</p>
+<p>很多操作方式跟 Windows 及 Linux 完全不同</p>
+<p>例如說，開啟檔案或資料夾時，Windows/Linux 可以按 <code>enter</code> 即可開啟</p>
+<p>但是在 Mac 對檔案按下 <code>enter</code>，居然是檔案重新命名 = =”</p>
+<p>我連要怎麼用鍵盤 “開啟檔案” 跟 “回到上一層資料夾” 都要上網 google</p>
+<p>原來開啟檔案或資料夾要按 <code>cmd + 上</code>，回到上一層要按 <code>cmd + 下</code></p>
+<p><br></p>
+<p>以前常常聽到網路上推崇 Mac 的作業系統，設計有多好用多直覺</p>
+<p>用過才知道，根本沒有這一回事好嗎 = =”</p>
+<p>一般視窗左上角的紅黃綠的三個按鈕又小又難按</p>
+<p>那個綠色 + 號根本無用，有用過的人就知道，他沒辦法把視窗放到最大，最後還是得自己手動慢慢調整視窗大小</p>
+<p>不過很多人不知道，其實只要按著 option 鍵，就可以把視窗調整到最大的了…</p>
+<p><strong><em>到底誰會知道要按著 option 鍵啊！</em></strong></p>
+<img src="/blog/MAC/tools/review-of-osx/window_bar.png" title="新版視窗按鈕">
+<p>可能 Apple 自己也有發覺這是個非常爛的設計，於是新版的 OSX 把右上角的全螢幕按鍵，移到了綠色按鍵的位置</p>
+<p>不過仍然可以按住 option 把調整視窗至最大</p>
+<p>總歸一句，<strong><em>到底誰會知道要按著 option 鍵啊…</em></strong></p>
+<p><br></p>
+<p>如果想要檔案兩邊左右對照的話，也只能自己拉視窗大小，自己移動視窗位置</p>
+<p>平時視窗一多的時候，整個螢幕畫面經常是亂七八糟的</p>
+<p>然後那個紅色 x 鍵，不會真的把程式關掉，而只是把 “視窗” 關掉而已，程式依然會在背景執行</p>
+<p>資料夾的檔案也不能像 windows 一樣設定自動對齊，每次都要自己按右鍵 &gt; 重新方式 &gt; 名稱</p>
+<p><br></p>
+<p>iOS 的設計很直覺好用，但是我實在搞不懂 Mac 到底哪裡操作直覺了</p>
+<p>我還得自己花了非常久的時間摸索，一些平常簡單不過的小功能，我還要自己上網 google …</p>
+<p>Mac 對於新的使用者來說，根本一點都不直覺！</p>
+<p><br></p>
+<p>雖然 Mac 的原廠設定，真的非常難用</p>
+<p>不過我努力上網 google 及摸索，陸陸續續發掘了許多好用的工具</p>
+<p>經過調整之後，我覺得現在的 Mac 用起來非常得順手</p>
+<p>搭配 Mac 超好用的觸控板，可以完美取代掉滑鼠（除非玩遊戲以外）</p>
+<p>OSX 本身很穩定，平時也不需要重新開機，不用的時候只要把螢幕闔上就好了</p>
+<p>要用的時候，螢幕一打開馬上就可以開始工作了</p>
+<p>比起 Windows 螢幕一闔上進入睡眠模式後，極有可能一覺不醒，或甚至整個當機</p>
+<p>Mac 實在是好用太多了！</p>
+<p>下一篇網誌會分享一些我自己覺得 Mac 上推薦的設定，以及軟體工具</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/tools/review-of-osx/" data-id="cjfwxuu6c0018ioon767sc0ib" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/tools/review-of-osx/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/tools/review-of-osx/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+        <a href="/blog/MAC/tools/touchpad-setting/" id="article-nav-newer" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Newer</strong>
+            <div class="article-nav-title">
+                
+                    觸控板設定及 BetterTouchTool
+                
+            </div>
+        </a>
+    
+    
+        <a href="/blog/MAC/others/how-to-remove-rargenie/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">如何刪除 RarGenie</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/reinstall-mac/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/reinstall-mac/" class="title">Mac Reinstallation Note</a></p>
+                            <p class="item-date"><time datetime="2018-04-12T16:05:43.000Z" itemprop="datePublished">2018-04-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/redmine-backup/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/redmine-backup/redmine_and_mysql.png)" alt="Redmine Backup" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/redmine-backup/" class="title">Redmine Backup</a></p>
+                            <p class="item-date"><time datetime="2018-04-11T23:08:32.000Z" itemprop="datePublished">2018-04-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/how-to-reset-password-in-redmine/redmine_cannot_login.png)" alt="How to Reset Password in Redmine" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="title">How to Reset Password in Redmine</a></p>
+                            <p class="item-date"><time datetime="2018-01-08T01:41:48.000Z" itemprop="datePublished">2018-01-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/install-redmine-on-mac/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/install-redmine-on-mac/redmine.png)" alt="Install Redmine on Mac" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/install-redmine-on-mac/" class="title">Install Redmine on Mac</a></p>
+                            <p class="item-date"><time datetime="2017-10-10T23:46:51.000Z" itemprop="datePublished">2017-10-10</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/mac-camera-not-works/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/MAC/others/mac-camera-not-works/there_is_no_connected_camera.jpg)" alt="Mac 攝影機無法連接" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/mac-camera-not-works/" class="title">Mac 攝影機無法連接</a></p>
+                            <p class="item-date"><time datetime="2017-03-22T09:01:16.000Z" itemprop="datePublished">2017-03-22</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/">MAC</a><span class="category-list-count">14</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/others/">others</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/tools/">tools</a><span class="category-list-count">7</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Redmine/">Redmine</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/TOEFL/">TOEFL</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/">iOS</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/others/">others</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/misc/">misc</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/01/">January 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/03/">March 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/09/">September 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/10/">October 2015</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/blog/tags/Alfred/" style="font-size: 10px;">Alfred</a> <a href="/blog/tags/Android/" style="font-size: 10px;">Android</a> <a href="/blog/tags/AppCleaner/" style="font-size: 10px;">AppCleaner</a> <a href="/blog/tags/BetterTouchTool/" style="font-size: 15px;">BetterTouchTool</a> <a href="/blog/tags/Camera/" style="font-size: 10px;">Camera</a> <a href="/blog/tags/CheatSheet/" style="font-size: 10px;">CheatSheet</a> <a href="/blog/tags/Chrome/" style="font-size: 15px;">Chrome</a> <a href="/blog/tags/Karabiner/" style="font-size: 15px;">Karabiner</a> <a href="/blog/tags/LadioCast/" style="font-size: 10px;">LadioCast</a> <a href="/blog/tags/Listchack/" style="font-size: 10px;">Listchack</a> <a href="/blog/tags/MAC/" style="font-size: 15px;">MAC</a> <a href="/blog/tags/Memory-Clean/" style="font-size: 10px;">Memory Clean</a> <a href="/blog/tags/MySQL/" style="font-size: 10px;">MySQL</a> <a href="/blog/tags/Nally/" style="font-size: 10px;">Nally</a> <a href="/blog/tags/Parallels-Desktop/" style="font-size: 10px;">Parallels Desktop</a> <a href="/blog/tags/Photos/" style="font-size: 10px;">Photos</a> <a href="/blog/tags/Quick-Time/" style="font-size: 10px;">Quick Time</a> <a href="/blog/tags/RarGenie/" style="font-size: 10px;">RarGenie</a> <a href="/blog/tags/Redmine/" style="font-size: 20px;">Redmine</a> <a href="/blog/tags/Skim/" style="font-size: 10px;">Skim</a> <a href="/blog/tags/Skitch/" style="font-size: 10px;">Skitch</a> <a href="/blog/tags/Soundflower/" style="font-size: 10px;">Soundflower</a> <a href="/blog/tags/SublimeText/" style="font-size: 10px;">SublimeText</a> <a href="/blog/tags/TOEFL/" style="font-size: 15px;">TOEFL</a> <a href="/blog/tags/TeamViewer/" style="font-size: 10px;">TeamViewer</a> <a href="/blog/tags/TextWrangler/" style="font-size: 10px;">TextWrangler</a> <a href="/blog/tags/VLC/" style="font-size: 10px;">VLC</a> <a href="/blog/tags/Xcode/" style="font-size: 10px;">Xcode</a> <a href="/blog/tags/brew/" style="font-size: 10px;">brew</a> <a href="/blog/tags/git/" style="font-size: 10px;">git</a> <a href="/blog/tags/iPhoto/" style="font-size: 15px;">iPhoto</a> <a href="/blog/tags/iSight/" style="font-size: 10px;">iSight</a> <a href="/blog/tags/iTerm2/" style="font-size: 15px;">iTerm2</a> <a href="/blog/tags/iTunes/" style="font-size: 15px;">iTunes</a> <a href="/blog/tags/repo/" style="font-size: 10px;">repo</a> <a href="/blog/tags/中文輸入法/" style="font-size: 10px;">中文輸入法</a> <a href="/blog/tags/分類字彙/" style="font-size: 10px;">分類字彙</a> <a href="/blog/tags/加試/" style="font-size: 10px;">加試</a> <a href="/blog/tags/字神帝國/" style="font-size: 10px;">字神帝國</a> <a href="/blog/tags/惡意軟體/" style="font-size: 10px;">惡意軟體</a> <a href="/blog/tags/星期/" style="font-size: 10px;">星期</a> <a href="/blog/tags/曜日/" style="font-size: 10px;">曜日</a> <a href="/blog/tags/神話/" style="font-size: 10px;">神話</a> <a href="/blog/tags/行星/" style="font-size: 10px;">行星</a>
+        </div>
+    </div>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 zlargon<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'zlargon';
+    
+    
+    var disqus_url = 'https://zlargon.github.io/blog/MAC/tools/review-of-osx/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        <script src="/blog/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/blog/js/main.js"></script>
+
+    </div>
+</body>
+</html>

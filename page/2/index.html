@@ -1,0 +1,1776 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+    
+    <title>zlargon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:type" content="website">
+<meta property="og:title" content="zlargon">
+<meta property="og:url" content="https://zlargon.github.io/blog/page/2/index.html">
+<meta property="og:site_name" content="zlargon">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="zlargon">
+    
+
+    
+
+    
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/2791834?v=3" />
+    
+
+    <link rel="stylesheet" href="/blog/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/blog/vendor/open-sans/styles.css">
+    <link rel="stylesheet" href="/blog/vendor/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/blog/css/style.css">
+
+    <script src="/blog/vendor/jquery/2.1.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/blog/vendor/fancybox/jquery.fancybox.css">
+    
+    
+        <script type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-64605332-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+    
+    
+    
+
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+    <div id="header-main" class="header-inner">
+        <div class="outer">
+            <a href="/blog/" id="logo">
+                
+                <span class="site-title">zlargon</span>
+            </a>
+            <nav id="main-nav">
+                
+                    <a class="main-nav-link" href="/blog/.">Home</a>
+                
+                    <a class="main-nav-link" href="/blog/archives">Archives</a>
+                
+                    <a class="main-nav-link" href="/blog/categories">Categories</a>
+                
+                    <a class="main-nav-link" href="/blog/tags">Tags</a>
+                
+                    <a class="main-nav-link" href="/blog/about">About</a>
+                
+            </nav>
+            
+                
+                <nav id="sub-nav">
+                    <div class="profile" id="profile-nav">
+                        <a id="profile-anchor" href="javascript:;">
+                            <img class="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                    </div>
+                </nav>
+            
+            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/blog/',
+        CONTENT_URL: '/blog/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/blog/js/insight.js"></script>
+
+</div>
+        </div>
+    </div>
+    <div id="main-nav-mobile" class="header-sub header-inner">
+        <table class="menu outer">
+            <tr>
+                
+                    <td><a class="main-nav-link" href="/blog/.">Home</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/archives">Archives</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/categories">Categories</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/tags">Tags</a></td>
+                
+                    <td><a class="main-nav-link" href="/blog/about">About</a></td>
+                
+                <td>
+                    
+    <div class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</header>
+
+        <div class="outer">
+            
+                
+
+<aside id="profile">
+    <div class="inner profile-inner">
+        <div class="base-info profile-block">
+            <img id="avatar" src="https://avatars.githubusercontent.com/u/2791834?v=3" />
+            <h2 id="name">zlargon</h2>
+            <h3 id="title">Software Developer</h3>
+            <span id="location"><i class="fa fa-map-marker"></i>Taichung, Taiwan</span>
+            <a id="follow" target="_blank" href="https://github.com/zlargon">FOLLOW</a>
+        </div>
+        <div class="article-info profile-block">
+            <div class="article-info-block">
+                21
+                <span>posts</span>
+            </div>
+            <div class="article-info-block">
+                44
+                <span>tags</span>
+            </div>
+        </div>
+        
+        <div class="profile-block social-links">
+            <table>
+                <tr>
+                    
+                    
+                    <td>
+                        <a href="https://github.com/zlargon" target="_blank" title="github" class=tooltip>
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </td>
+                    
+                    <td>
+                        <a href="https://fb.me/zlargon" target="_blank" title="facebook" class=tooltip>
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</aside>
+
+            
+            <section id="main">
+    <article id="post-toefl-listening-plus-questions" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/TOEFL/toefl-listening-plus-questions/">托福聽力加試題</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/TOEFL/toefl-listening-plus-questions/">
+            <time datetime="2016-09-11T19:51:38.000Z" itemprop="datePublished">2016-09-11</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/TOEFL/">TOEFL</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/TOEFL/">TOEFL</a>, <a class="tag-link" href="/blog/tags/加試/">加試</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/TOEFL/toefl-listening-plus-questions/toefl.gif" title="TOEFL ETS">
+<h1 id="第一套經典加試題"><a href="#第一套經典加試題" class="headerlink" title="第一套經典加試題"></a>第一套經典加試題</h1><h2 id="鳥類遷移-Bird-Migration-Conversation"><a href="#鳥類遷移-Bird-Migration-Conversation" class="headerlink" title="鳥類遷移 Bird Migration (Conversation)"></a>鳥類遷移 Bird Migration (Conversation)</h2><ol>
+<li><p><strong>Why does the man go to see his professer?</strong></p>
+<ul>
+<li>He cannot find enough information on his term paper topic.</li>
+</ul>
+</li>
+<li><p><strong>How does the professor help the man?</strong></p>
+<ul>
+<li>By suggestion a change in his approach to a paper</li>
+</ul>
+</li>
+<li><p><strong>What information will the man probably include in his paper? (Choose 2 answer)</strong></p>
+<ul>
+<li>His own analysis of early theories about bird migration</li>
+<li>Current research on bird migration</li>
+</ul>
+</li>
+<li><p><strong>Why does the man talk about birds that migrate at night?</strong></p>
+<ul>
+<li>To demonstrate that he understands the professor’s recommendation</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply when she says this:</strong></p>
+<p> <em>“You’re having trouble finding sources on bird migration!?”</em></p>
+<ul>
+<li>She thinks finding sources on bird migration should be easy.</li>
+</ul>
+</li>
+</ol>
+<h2 id="大王花-Rafflesia-Lecture"><a href="#大王花-Rafflesia-Lecture" class="headerlink" title="大王花 Rafflesia (Lecture)"></a>大王花 Rafflesia (Lecture)</h2><ol>
+<li><p><strong>What is the lecture mainly about?</strong></p>
+<ul>
+<li>Difficulties classifying an unusal type of plant.</li>
+</ul>
+</li>
+<li><p><strong>How does a strong odor help Rafflesia?</strong></p>
+<ul>
+<li>The odor attracts flies that pollinate its flowers.</li>
+</ul>
+</li>
+<li><p><strong>Why does the professor consider the actual classication of Rafflesia unexpected?</strong></p>
+<ul>
+<li>Its unusual traits are not shared by other plants in its order.</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply about the reproduction of Rafflesia?</strong></p>
+<ul>
+<li>It does not occur often.</li>
+</ul>
+</li>
+<li><p><strong>Why does the professor say this:</strong></p>
+<p> <em>“I mean…it grows inside its host until it blooms–it doesn’t bloom inside the host.”</em></p>
+<ul>
+<li>To clarify her statement so students don’t misunderstand her</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply when she says this:</strong></p>
+<p> <em>“But as it turns out, Mitrastema is actually related to blueberries.”</em></p>
+<ul>
+<li>Rafflesia and Mitrastema are not in the same order.</li>
+</ul>
+</li>
+</ol>
+<h2 id="繁音拍子樂曲-Ragtime-Music-Lecture"><a href="#繁音拍子樂曲-Ragtime-Music-Lecture" class="headerlink" title="繁音拍子樂曲 Ragtime Music (Lecture)"></a>繁音拍子樂曲 Ragtime Music (Lecture)</h2><ol>
+<li><p><strong>What is the lecture mainly about?</strong></p>
+<ul>
+<li>How the piano contributed to the popularity of Ragtime music</li>
+</ul>
+</li>
+<li><p><strong>According to the lectrue, why did Ragtime music become popular in the United States?</strong></p>
+<ul>
+<li>It expresses the spirit of young people.</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply about pianos of the Ragtime-era? (Choose 2 answers)</strong></p>
+<ul>
+<li>Their sound quality was well suited for Ragtime music.</li>
+<li>They reflected their owner’s wealth and social standing.</li>
+</ul>
+</li>
+<li><p><strong>Why does the professor mention parades and park concerts?</strong></p>
+<ul>
+<li>To show how the piano was sometimes replaced by other instruments</li>
+</ul>
+</li>
+<li><p><strong>What does the professor say about jazz music?</strong></p>
+<ul>
+<li>It was an improvised form of Ragtime music.</li>
+</ul>
+</li>
+<li><p><strong>Why does the student says this:</strong></p>
+<p> <em>“Really? Well, with Rock and Rap, I get why they are popular, but when it comes to Ragtime, oh, I don’t get it.”</em></p>
+<ul>
+<li>To ask for an explanation of why Ragtime music was popular</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="第二套經典加試題"><a href="#第二套經典加試題" class="headerlink" title="第二套經典加試題"></a>第二套經典加試題</h1><h2 id="遺失的學生證-Lost-ID-Conversation"><a href="#遺失的學生證-Lost-ID-Conversation" class="headerlink" title="遺失的學生證 Lost ID (Conversation)"></a>遺失的學生證 Lost ID (Conversation)</h2><ol>
+<li><p><strong>What is the student’s proplem?</strong></p>
+<ul>
+<li>She needs to get a new ID card.</li>
+</ul>
+</li>
+<li><p><strong>Why doesn’t the student go to her dorm room to get her passport?</strong></p>
+<ul>
+<li>She is not allowed to enter the building.</li>
+</ul>
+</li>
+<li><p><strong>How will the director of security verify the student’s identity?</strong></p>
+<ul>
+<li>By locating her information in the computer</li>
+</ul>
+</li>
+<li><p><strong>What does the man imply about the student’s meal pass?</strong></p>
+<ul>
+<li>It can be issued at the same time as the ID.</li>
+</ul>
+</li>
+<li><p><strong>What does the student imply when she says this:</strong></p>
+<p> <em>“You’re glad!”</em></p>
+<ul>
+<li>She’s the one who’s relieved.</li>
+</ul>
+</li>
+</ol>
+<h2 id="神經膠質細胞-Glial-Cells-Lecture"><a href="#神經膠質細胞-Glial-Cells-Lecture" class="headerlink" title="神經膠質細胞 Glial Cells (Lecture)"></a>神經膠質細胞 Glial Cells (Lecture)</h2><ol>
+<li><p><strong>What does the professor mainly discuss?</strong></p>
+<ul>
+<li>How the understanding of glial cells has changed</li>
+</ul>
+</li>
+<li><p><strong>Historically, what did researchers assume was the main purpose of glial cells?</strong></p>
+<ul>
+<li>They support the needs of neurons.</li>
+</ul>
+</li>
+<li><p><strong>Early brain research focused on neurons. What does the professor imply was the result of this emphasis?</strong></p>
+<ul>
+<li>Little research was done on glial cells.</li>
+</ul>
+</li>
+<li><p><strong>According to the professor, what discovery allowed scientists to gain a better understanding of the role of glial cells?</strong></p>
+<ul>
+<li>They communicate through chemical signals.</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply when she says this:</strong></p>
+<p> <em>“Yes, exactly! That’s fine Bernard.”</em></p>
+<ul>
+<li>That the student’s answer is complete</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply when she says this:</strong></p>
+<p> <em>“I think there’s a lot of opportunity in glial cells research, especially a few years from now when you folks graduate. As I see it the field is really opening up.”</em></p>
+<ul>
+<li>Student should consider glial cells research as a career.</li>
+</ul>
+</li>
+</ol>
+<h2 id="浪蠻主義詩歌-Romanticism-Lecture"><a href="#浪蠻主義詩歌-Romanticism-Lecture" class="headerlink" title="浪蠻主義詩歌 Romanticism (Lecture)"></a>浪蠻主義詩歌 Romanticism (Lecture)</h2><ol>
+<li><p><strong>What is the lecture mainly about?</strong></p>
+<ul>
+<li>William Wordsworth’s intention in writing poems</li>
+</ul>
+</li>
+<li><p><strong>What are two features of Wordsworth’s poems that the professor discusses? (Choose 2 answers)</strong></p>
+<ul>
+<li>simple language</li>
+<li>familiar subject matters</li>
+</ul>
+</li>
+<li><p><strong>What are two points the professor makes that are about Romantic poets? (Choose 2 answers)</strong></p>
+<ul>
+<li>They were interested in human emotion.</li>
+<li>They rejected certain principles of Neoclassic poetry.</li>
+</ul>
+</li>
+<li><p><strong>What is the professor’s opinion of Wordsworth’s poetry?</strong></p>
+<ul>
+<li>He agrees with the view of nature it presents.</li>
+</ul>
+</li>
+<li><p><strong>Why does the professor say this?</strong></p>
+<p> <em>“did any of them use the word bird? Or did they use an expression like feathered people? Would they be more likely to refer to the sky above as sky, or as a blue expanse?”</em></p>
+<ul>
+<li>To illustrate the difference between Neoclassic poets and Wordsworth</li>
+</ul>
+</li>
+<li><p><strong>What does the professor imply when he says this?</strong></p>
+<p> <em>“so it’s commonly held that the quality of Wordsworth’s poetry fell off over time, which unfortunately is not something you’ll get to judge in this course.”</em></p>
+<ul>
+<li>That they will read only Wordsworth’s poems from early period</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="參考連結"><a href="#參考連結" class="headerlink" title="參考連結"></a>參考連結</h1><ul>
+<li><a href="http://bbs.zhan.com/thread-77687-1-1.html" target="_blank" rel="noopener">http://bbs.zhan.com/thread-77687-1-1.html</a></li>
+</ul>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/TOEFL/toefl-listening-plus-questions/" data-id="cjfwxuu6i001iioon14abvo3d" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/TOEFL/toefl-listening-plus-questions/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/TOEFL/toefl-listening-plus-questions/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-record-both-system-audio-and-mic-input" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/MAC/tools/record-both-system-audio-and-mic-input/">Mac 同時收錄 電腦音源 + 麥克風音源</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/tools/record-both-system-audio-and-mic-input/">
+            <time datetime="2016-08-19T04:45:48.000Z" itemprop="datePublished">2016-08-19</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/tools/">tools</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/LadioCast/">LadioCast</a>, <a class="tag-link" href="/blog/tags/Quick-Time/">Quick Time</a>, <a class="tag-link" href="/blog/tags/Soundflower/">Soundflower</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/sound_flower.png" title="Soundflower">
+<p>有時候我們想要錄製一些影片，除了自己麥克風的聲音之外，還想要同時收錄一些當時電腦發出的聲音</p>
+<p>但是我們在用 Quick Time 錄影時，只能選擇一種音源輸入，而不能同時選擇兩者</p>
+<p>因此我們要做就是，把 “麥克風音源” 和 “電腦音源” 混合成單一個音源，然後再導入 Quick Time</p>
+<h1 id="安裝軟體（Free）"><a href="#安裝軟體（Free）" class="headerlink" title="安裝軟體（Free）"></a>安裝軟體（Free）</h1><table>
+<thead>
+<tr>
+<th>名稱</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quick Time</strong></td>
+<td>Mac 內建影音播放 / 錄音 / 錄影軟體</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mattingalls/Soundflower/releases" target="_blank" rel="noopener"><strong>Sound Flower（2.0b2）</strong></a></td>
+<td>提供兩個虛擬音源（<code>2ch</code>、<code>64ch</code>）</td>
+</tr>
+<tr>
+<td><a href="https://itunes.apple.com/tw/app/ladiocast/id411213048" target="_blank" rel="noopener"><strong>Ladio Cast</strong></a></td>
+<td>可將不同的音源混合輸出</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note:<br>網路上很多 <code>Sound Flower</code> 的版本已經過舊，在最新的 Mac 作業系統會無法運行，所以務必要到這裡提供的連結處下載最新版的 <code>Sound Flower</code><br><a href="https://github.com/mattingalls/Soundflower/releases" target="_blank" rel="noopener">https://github.com/mattingalls/Soundflower/releases</a></p>
+</blockquote>
+<h1 id="流程大綱"><a href="#流程大綱" class="headerlink" title="流程大綱"></a>流程大綱</h1><ol>
+<li>從內部 Mac 設定，將 <code>電腦音源</code> 導入虛擬音源 <code>Sound Flower (64ch)</code></li>
+<li>使用 Ladio Cast 進行混音，將 <code>麥克風</code> 和 <code>64ch</code> 都導入 <code>2ch</code></li>
+<li>在 Quick Time 錄音 / 錄影時，音源選擇虛擬音源 <code>Sound Flower (2ch)</code></li>
+</ol>
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/flow.png" title="流程圖">
+<h1 id="設定步驟"><a href="#設定步驟" class="headerlink" title="設定步驟"></a>設定步驟</h1><p>安裝好 Sound Flower 後，電腦就會出現 <code>Sound Flower (64ch)</code> 跟 <code>Sound Flower (2ch)</code> 兩個虛擬音源；除此之外，桌面上方的工具列，也會出現 Sound Flower 的圖示。</p>
+<h2 id="1-將-Mac-音源輸出-導入-Sound-Flower-64ch"><a href="#1-將-Mac-音源輸出-導入-Sound-Flower-64ch" class="headerlink" title="1. 將 Mac 音源輸出 導入 Sound Flower (64ch)"></a>1. 將 Mac <code>音源輸出</code> 導入 <code>Sound Flower (64ch)</code></h2><p>開啟 Mac <code>系統偏好設定</code> &gt; <code>聲音</code> &gt; <code>輸出</code>，選擇輸出裝置 <code>Sound Flower (64ch)</code></p>
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/audio_preference.png" title="聲音設定">
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/audio_preference_output_64ch.png" title="設定虛擬音源 64 ch">
+<p>此後虛擬音源 <code>64ch</code> 就等同於是 <code>電腦音源</code></p>
+<blockquote>
+<p>Note:<br>記得要把聲音調到最大，否則錄到的聲音會很小聲</p>
+</blockquote>
+<h2 id="2-設定-Sound-Flower"><a href="#2-設定-Sound-Flower" class="headerlink" title="2. 設定 Sound Flower"></a>2. 設定 Sound Flower</h2><p>開啟桌面上方工具列的 Sound Flower 圖示，將 <code>2ch</code> 設為 <code>None (OFF)</code>，將 64ch 設為 <code>Built-in Output</code>。</p>
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/soundflower_setting.png" title="設定 Sound Flower">
+<h2 id="3-設定-Ladio-Cast"><a href="#3-設定-Ladio-Cast" class="headerlink" title="3. 設定 Ladio Cast"></a>3. 設定 Ladio Cast</h2><p>使用 Ladio Cast 進行混音，將 <code>麥克風</code>、<code>64ch</code> 都導入 <code>2ch</code></p>
+<ul>
+<li>將 <code>Input 1</code> 設為 <code>Built-in Microphone</code>（麥克風音源）</li>
+<li>將 <code>Input 2</code> 設為 <code>Sound Flower (64ch)</code></li>
+<li>將 <code>Main Output</code> 設為 <code>Sound Flower (2ch)</code></li>
+</ul>
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/ladiocast_setting.png" title="設定 Ladio Cast">
+<h2 id="4-設定-Quick-Time-音源為-Sound-Flower-2ch"><a href="#4-設定-Quick-Time-音源為-Sound-Flower-2ch" class="headerlink" title="4. 設定 Quick Time 音源為 Sound Flower (2ch)"></a>4. 設定 Quick Time 音源為 <code>Sound Flower (2ch)</code></h2><p>最後，只要將 Quick Time 或是其他錄音軟體的音源，設為 <code>Sound Flower (2ch)</code> 就大功告成了</p>
+<img src="/blog/MAC/tools/record-both-system-audio-and-mic-input/quicktime_input_audio.png" title="設定 Quick Time 音源">
+<blockquote>
+<p>Note:<br>平常沒有要錄音的時候，記得將 “第一步驟” 的音源輸出設回原本的預設設定 (<code>內建揚聲器</code>or<code>耳機</code>)，否則電腦會沒有聲音</p>
+</blockquote>
+<h1 id="參考連結"><a href="#參考連結" class="headerlink" title="參考連結"></a>參考連結</h1><ul>
+<li><a href="https://youtu.be/lB9Ovqk5H5c" target="_blank" rel="noopener">https://youtu.be/lB9Ovqk5H5c</a></li>
+<li><a href="http://k-tsubo.com/mac/4582/" target="_blank" rel="noopener">http://k-tsubo.com/mac/4582/</a></li>
+</ul>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/tools/record-both-system-audio-and-mic-input/" data-id="cjfwxuu66000zioonqjtj8cin" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/tools/record-both-system-audio-and-mic-input/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/tools/record-both-system-audio-and-mic-input/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-selection-box-of-chinese-input-method-is-missing" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/">中文輸入法選字框 無法顯示</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/">
+            <time datetime="2016-06-24T13:07:10.000Z" itemprop="datePublished">2016-06-24</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/中文輸入法/">中文輸入法</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/osx_logo.jpg" title="OS X">
+<p>自從我的 MAC OSX 升級到 10.11 之後，就常常會遇到中文輸入法選字框消失的情形<br>只能靠重開機來修復，還滿煩的</p>
+<p>我後來有拍影片傳到 Youtube，也有在 Apple 社群發問，終於遇到好心人回覆了<br>ya~ 終於不用再一直重開機了 ^0^</p>
+<h2 id="解決方案"><a href="#解決方案" class="headerlink" title="解決方案"></a>解決方案</h2><p>在終端機輸入 <code>killall TCIM</code></p>
+<img src="/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/TCIM.png" title="TCIM">
+<p>這個指令把背景執行的<code>TCIM</code>（中文輸入法）的程序關掉<br>當作業系統發現 <code>TCIM</code> 不見之後，就會強迫重新啟動 <code>TCIM</code>，這時候選字框就回來了</p>
+<h2 id="影片連結"><a href="#影片連結" class="headerlink" title="影片連結"></a>影片連結</h2><div class="video-container"><iframe src="//www.youtube.com/embed/m_f44XGfDXw" frameborder="0" allowfullscreen></iframe></div>
+<p><br></p>
+<h2 id="參考連結"><a href="#參考連結" class="headerlink" title="參考連結"></a>參考連結</h2><ul>
+<li><a href="http://blog.tenyi.com/2015/10/mac-os-x-ei-capitan.html" target="_blank" rel="noopener">http://blog.tenyi.com/2015/10/mac-os-x-ei-capitan.html</a></li>
+<li><a href="https://discussionschinese.apple.com/thread/73381" target="_blank" rel="noopener">https://discussionschinese.apple.com/thread/73381</a></li>
+</ul>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/" data-id="cjfwxuu6f001bioon2e9tndz6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-stop-android-file-transfer-auto-starting" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/MAC/others/stop-android-file-transfer-auto-starting/">取消自動開啟 Android File Transfer</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/others/stop-android-file-transfer-auto-starting/">
+            <time datetime="2016-04-12T04:36:56.000Z" itemprop="datePublished">2016-04-12</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/Android/">Android</a>, <a class="tag-link" href="/blog/tags/MAC/">MAC</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/android_file_transfer.png" title="Android File Transfer">
+<p>Google 官方推出的 <a href="https://www.android.com/filetransfer/" target="_blank" rel="noopener"><strong>Android File Transfer</strong></a> 是一款專為 OSX 瀏覽 Android 裝置檔案目錄的軟體<br>只要 Android 裝置透過 USB 連接 MAC 電腦，就會自行跳出瀏覽檔案目錄的介面</p>
+<p><strong>Download:</strong><br><a href="https://www.android.com/filetransfer/" target="_blank" rel="noopener">https://www.android.com/filetransfer/</a></p>
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/user_interface.png" title="使用者介面">
+<h2 id="無法正常開啟"><a href="#無法正常開啟" class="headerlink" title="無法正常開啟"></a>無法正常開啟</h2><img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/cannot_access.png" title="can not access">
+<p>如果連接時，出現以上的警告訊息，請先將 Android 的 USB 選項調整至 <code>檔案轉移</code>，再重新開啟 <code>Android File Transter</code></p>
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/usb_option.png" title="USB 選項">
+<h2 id="關閉自動啟動"><a href="#關閉自動啟動" class="headerlink" title="關閉自動啟動"></a>關閉自動啟動</h2><p>只要 Android 一插上 MAC 電腦，就立即跳出 <code>Android File Transter</code>，但有時候我們只是想要讓手機插在電腦上充電而已，還要手動關掉也是挺惱人的</p>
+<p>其實他是有另外一個背景程序 <code>Android File Transfer Agent</code>，他的任務是當發現有 Android 裝置透過 USB 連接電腦時，就啟動 <code>Android File Transter</code>；因此只要將 <code>Android File Transfer Agent</code> 移除，就不會自行啟動了</p>
+<p><br></p>
+<ol>
+<li><h3 id="關閉背景程序-Android-File-Transfer-Agent"><a href="#關閉背景程序-Android-File-Transfer-Agent" class="headerlink" title="關閉背景程序 Android File Transfer Agent"></a>關閉背景程序 <code>Android File Transfer Agent</code></h3><p>開啟 <code>活動監視器 (Activity Monitor)</code> &gt; 找到 <code>Android File Transfer Agent</code>後點兩下開啟 &gt; 按 <code>結束</code> 終止背景程序</p>
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/activity_monitor.png" title="活動監視器">
+<p>這時候我們再插拔 USB，<code>Android File Transfer</code> 已經不會再自行啟動了</p>
+<p>但是只要一開啟 <code>Android File Transter</code>，他就會默默得把 <code>Android File Transfer Agent</code> 重新叫起來，因此我們要將 <code>Android File Transfer Agent</code> 移除才行</p>
+</li>
+<li><h3 id="移除-Android-File-Transfer-Agent"><a href="#移除-Android-File-Transfer-Agent" class="headerlink" title="移除 Android File Transfer Agent"></a>移除 <code>Android File Transfer Agent</code></h3><p><code>Android File Transfer Agent</code> 檔案位置如下：</p>
+<ul>
+<li><code>/Applications/Android File Transfer.app/Contents/Resources</code></li>
+<li><code>~/Library/Application Support/Google/Android File Transfer</code></li>
+</ul>
+<p>可以在 <code>Finder</code> 按 <code>cmd + shift + G</code> 貼上以上位置前往，或是用 <code>終端機</code> 都過指令的方式來開啟資料夾</p>
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/file_path_1.png" title="/Applications/Android File Transfer.app/Contents/Resources">
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/file_path_2.png" title="~/Library/Application Support/Google/Android File Transfer">
+<p>你可以選擇備份檔案（重新命名），如果未來有需要的時候再把它加回來（把檔案名稱改回來）<br>如果你很確定不要這個功能，那就直接刪除吧！</p>
+</li>
+<li><h3 id="將-Android-File-Transfer-Agent-從-登入項目-中移除"><a href="#將-Android-File-Transfer-Agent-從-登入項目-中移除" class="headerlink" title="將 Android File Transfer Agent 從 登入項目 中移除"></a>將 <code>Android File Transfer Agent</code> 從 <code>登入項目</code> 中移除</h3><p>如果你選擇不移除，而是重新命名的話，下次登入時 <code>Android File Transfer Agent</code> 還是會被啟動，因此必須從 <code>登入項目</code> 把它移除</p>
+<ul>
+<li><code>系統偏好設定（System Preferences）</code> &gt; <code>使用者群組（Users &amp; Groups）</code> &gt; <code>登入項目（Login Items）</code></li>
+</ul>
+<img src="/blog/MAC/others/stop-android-file-transfer-auto-starting/user_login_items.png" title="登入項目">
+</li>
+</ol>
+<p>這樣就大功告成啦！</p>
+<p>不過這些步驟實在太繁瑣了，我覺得 <code>Android File Transfer</code> 應該要內建這個偏好設定才對！</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/" data-id="cjfwxuu6h001eioon249vwe8m" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-naming-of-planets-and-days" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/misc/naming-of-planets-and-days/">東西方行星、星期命名的由來</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/misc/naming-of-planets-and-days/">
+            <time datetime="2015-12-13T03:13:13.000Z" itemprop="datePublished">2015-12-12</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/misc/">misc</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/星期/">星期</a>, <a class="tag-link" href="/blog/tags/曜日/">曜日</a>, <a class="tag-link" href="/blog/tags/神話/">神話</a>, <a class="tag-link" href="/blog/tags/行星/">行星</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/misc/naming-of-planets-and-days/eight-planets.png" title="八大行星">
+<p>在星期的命名上，不論東方或是西方，最早都是採用星球來命名<br>古人以為地球是世界的中心，而所有的星球都是繞著地球旋轉<br>而古人用肉眼所能見到的星球，主要就是太陽、月亮、水星、金星、火星、木星、土星<br>西方習慣以希羅神話的神來為星球命名，而東方則是採用陰陽五行來命名<br>七個星球剛好對應到星期一到星期日<br>天王星、海王星、冥王星由於距離太遙遠了，古代天文技術還無法觀察到，所以不在探討範圍</p>
+<h1 id="東方"><a href="#東方" class="headerlink" title="東方"></a>東方</h1><h3 id="中國古代五大行星"><a href="#中國古代五大行星" class="headerlink" title="中國古代五大行星"></a>中國古代五大行星</h3><ul>
+<li><strong>辰星（水星）</strong>：由地球觀測，去日總在一辰（15度）之內</li>
+<li><strong>太白（金星）</strong>：因為它光色銀白，亮度特強，所有又稱明星</li>
+<li><strong>熒惑（火星）</strong>：古人認為火星在位置及亮度上都常變不定，故稱為「熒惑」，在星占學上象徵殘、疾、喪、飢、兵等惡象</li>
+<li><strong>歲星（木星）</strong>：古人認為歲星每十二年繞天一周，每年行經一個特定的星空區域，並據以紀年</li>
+<li><strong>鎮星（土星）</strong>：鎮星是因為土星週期約29年，一年可跑一星宿，看起來像是鎮住二十八星宿</li>
+</ul>
+<p>天有日月五星，地有陰陽五行<br>西漢時期，天文學家司馬遷把五大行星與春秋戰國以來的「五行」學說聯繫在一起，正式把五大行星命名為「金星」、「木星」、「水星」、「火星」、「土星」。五行配五色，木為青，火為赤，土為黃，金為白，水為黑。<br>司馬遷從實際觀測發現，歲星呈青色，故稱木星；熒惑呈紅色，故稱火星；填星為黃色，故稱土星；太白為白色，故稱金星，辰星呈灰色，故以黑色配水星，這些在《史記‧天官書》中有明確記載。</p>
+<h3 id="東方七曜"><a href="#東方七曜" class="headerlink" title="東方七曜"></a>東方七曜</h3><p>夫七曜者，所謂日月五星，下直人間。一日一易，七日周而復始。</p>
+<ul>
+<li>日曜太陽，胡名蜜，波斯名曜森勿，天竺名阿儞(泥以反)底耶(二合)。</li>
+<li>月曜太陰，胡名莫，波斯名婁禍森勿，天竺名蘇上摩。</li>
+<li>火曜熒惑，胡名雲漢，波斯名勢森勿，天竺名糞盎聲哦囉迦盎。</li>
+<li>水曜辰星，胡名咥(丁逸反)，波斯名掣森勿，天竺名部(引)陀。</li>
+<li>木曜嵗星，胡名鶻勿，波斯名本森勿，天竺名勿哩訶娑跛底(丁以反)。</li>
+<li>金曜太白，胡名那歇，波斯名數森勿，天竺名戌羯羅。</li>
+<li>土曜鎮星，胡名枳院，波斯名翕森勿，天竺名賒乃以室折囉。</li>
+</ul>
+<p>因此一週七日的概念就出現了！<br>中國在民國之後改名為星期，「星」指得就是七曜<br>日本則繼續沿用七曜日的名稱</p>
+<p><br></p>
+<h1 id="西方"><a href="#西方" class="headerlink" title="西方"></a>西方</h1><h3 id="西方五大行星"><a href="#西方五大行星" class="headerlink" title="西方五大行星"></a>西方五大行星</h3><ul>
+<li><p><strong>Mercury（水星）</strong><br>  墨丘利是羅馬神話的信使之神，腳穿飛行鞋，速度很快<br>  由於水星最靠近太陽，運行的速度很快，所以亦用了他的名字而命名</p>
+</li>
+<li><p><strong>Venus（金星）</strong><br>  維納斯是羅馬神話的性愛女神，她的光芒美麗，跟金星一樣耀眼，因而用其名</p>
+</li>
+<li><p><strong>Mars（火星）</strong><br>  瑪爾斯是羅馬神話中的戰神，朱比特之子，維納斯的情人<br>  血紅色的火星象徵了戰爭，因而用其名</p>
+</li>
+<li><p><strong>Jupiter（木星）</strong><br>  朱比特是羅馬神話的萬神之王、閃電之神（希臘名為宙斯 Zeus）<br>  由於木星是所有行星最大的，因而用其名</p>
+</li>
+<li><p><strong>Saturn（土星）</strong><br>  撒頓是羅馬神話的農神（希臘名 Cronus），是朱比特的父親<br>  他是天王 Uranus 和地母 Gaia 所生的十二子女（泰坦眾神）中最小的。<br>  後來他將父親推翻之後，成為新一代的眾神之王<br>  他的父親 Uranus 在臨死前預言撒頓將來會被他的子女推翻<br>  於是撒頓每當生出一個子女，就把他吞到肚子裡，以免子女篡位<br>  撒頓的第三個兒子朱比特出生後，在母親的幫忙下逃過一劫，而沒被撒頓吞掉<br>  後來朱比特長大成人之後，就把父親推翻，救出在父親肚子裡的兄弟姊妹<br>  撒頓被朱比特推翻之後，逃到了拉丁姆，並教會了那裡的人民耕種土地；這就是羅馬農業的由來<br>  土星的行星環象徵了撒頓的子女，當土星轉到側面的時候，就會看不到行星環，就像是把小孩吞掉了一樣<br>  另外土星的行星環看起來很像農神耕作用的鐮刀，因而用其名</p>
+</li>
+</ul>
+<p>另外天王星、海王星、冥王星都是近代被發現的<br>沿用天王 Uranus、海神 Neptunus、冥王 Pluto 的名稱</p>
+<h3 id="西方七日"><a href="#西方七日" class="headerlink" title="西方七日"></a>西方七日</h3><p>西方古代星期也跟中國一樣，是採用太陽、月亮、及五大行星來命名<br>古人認為宇宙有七個星球，每天都會有一個星球的神值班<br>最初的拉丁文的命名如下：</p>
+<table>
+<thead>
+<tr>
+<th>星期</th>
+<th>拉丁文</th>
+<th>英譯</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sunday</td>
+<td>dies solis</td>
+<td>day of the sun</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>dies lunae</td>
+<td>day of the moon</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>dies Martis</td>
+<td>day of Mars</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>dies Mercurii</td>
+<td>day of Mercury</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>dies Jovis</td>
+<td>day of Jupiter</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>dies Veneris</td>
+<td>day of Venus</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>dies Saturni</td>
+<td>day of Saturn</td>
+</tr>
+</tbody>
+</table>
+<p>由於英國的祖先是來自於北歐，於是就把星期二 ~ 五取代成北歐神話的神，只有星期六沿用羅馬神話的農神<br>所以現今的星期對應如下，讀音相近於現代英文的唸法：</p>
+<table>
+<thead>
+<tr>
+<th>星期</th>
+<th>古英文原意</th>
+<th>中譯</th>
+<th>象徵之神</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sunday</td>
+<td>day of the sun</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>day of the moon</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>Tiw’s day</td>
+<td>提爾的日子</td>
+<td>北歐神話 - 戰神</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>Woden’s day</td>
+<td>沃登（奧丁）的日子</td>
+<td>北歐神話 - 天神</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>Thor’s day</td>
+<td>索爾的日子</td>
+<td>北歐神話 - 雷神</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>Freya’s (or Frigg’s) day</td>
+<td>弗麗格的日子</td>
+<td>北歐神話 - 愛神</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>Saturn’s day</td>
+<td>撒頓的日子</td>
+<td>羅馬神話 - 農神</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h1 id="總整理"><a href="#總整理" class="headerlink" title="總整理"></a>總整理</h1><table>
+<thead>
+<tr>
+<th>星期</th>
+<th>英文</th>
+<th>原意</th>
+<th>北歐神話</th>
+<th>羅馬神話 / 西方五星</th>
+<th>東方五星</th>
+<th style="text-align:center">日文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>日</strong></td>
+<td>Sunday</td>
+<td>day of the sun</td>
+<td></td>
+<td></td>
+<td>太陽</td>
+<td style="text-align:center">日曜日</td>
+</tr>
+<tr>
+<td><strong>一</strong></td>
+<td>Monday</td>
+<td>day of the moon</td>
+<td></td>
+<td></td>
+<td>月亮</td>
+<td style="text-align:center">月曜日</td>
+</tr>
+<tr>
+<td><strong>二</strong></td>
+<td>Tuesday</td>
+<td>Tiw’s day</td>
+<td>戰神 提爾</td>
+<td>戰神 Mars</td>
+<td>火星</td>
+<td style="text-align:center">火曜日</td>
+</tr>
+<tr>
+<td><strong>三</strong></td>
+<td>Wednesday</td>
+<td>Woden’s day</td>
+<td>天神 沃登（奧丁）</td>
+<td>信使之神 Mercury</td>
+<td>水星</td>
+<td style="text-align:center">水曜日</td>
+</tr>
+<tr>
+<td><strong>四</strong></td>
+<td>Thursday</td>
+<td>Thor’s day</td>
+<td>雷神 索爾</td>
+<td>宇宙之王 Jupiter</td>
+<td>木星</td>
+<td style="text-align:center">木曜日</td>
+</tr>
+<tr>
+<td><strong>五</strong></td>
+<td>Friday</td>
+<td>Freya’s day</td>
+<td>愛神 弗麗格</td>
+<td>性愛女神 Venus</td>
+<td>金星</td>
+<td style="text-align:center">金曜日</td>
+</tr>
+<tr>
+<td><strong>六</strong></td>
+<td>Saturday</td>
+<td>Saturn’s day</td>
+<td></td>
+<td>農業之神 Saturn</td>
+<td>土星</td>
+<td style="text-align:center">土曜日</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h2 id="補充：八大行星"><a href="#補充：八大行星" class="headerlink" title="補充：八大行星"></a>補充：八大行星</h2><table>
+<thead>
+<tr>
+<th>行星</th>
+<th>羅馬神話</th>
+<th>希臘神話</th>
+<th>象徵之神</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>水星</td>
+<td><font color="blue"><strong>Mercury 墨丘利</strong></font></td>
+<td>Hermes 荷密仕</td>
+<td>信使之神、商業、醫療之神</td>
+</tr>
+<tr>
+<td>金星</td>
+<td><font color="blue"><strong>Venus 維納斯</strong></font></td>
+<td>Aphrodite 阿芙蘿狄特</td>
+<td>性愛女神、情感之神</td>
+</tr>
+<tr>
+<td>地球</td>
+<td>Terra 提拉</td>
+<td>Gaia 蓋亞</td>
+<td>大地之母，與天王合稱「天王地母」</td>
+</tr>
+<tr>
+<td>火星</td>
+<td><font color="blue"><strong>Mars 瑪爾斯</strong></font></td>
+<td>Ares 阿瑞斯</td>
+<td>戰神</td>
+</tr>
+<tr>
+<td>木星</td>
+<td><font color="blue"><strong>Jupiter 朱比特</strong></font></td>
+<td>Zeus 宙斯</td>
+<td>萬神之王、宇宙之王、閃電之神</td>
+</tr>
+<tr>
+<td>土星</td>
+<td><font color="blue"><strong>Saturn 撒頓</strong></font></td>
+<td>Cronus 克羅那斯</td>
+<td>農業之神、時間之神</td>
+</tr>
+<tr>
+<td>天王星</td>
+<td>Ceolus 克洛諾斯</td>
+<td><font color="blue"><strong>Uranus 優拉納斯</strong></font></td>
+<td>天王、天空之神</td>
+</tr>
+<tr>
+<td>海王星</td>
+<td><font color="blue"><strong>Neptune 涅普頓</strong></font></td>
+<td>Poseidon 波賽頓</td>
+<td>海神</td>
+</tr>
+<tr>
+<td>冥王星</td>
+<td><font color="blue"><strong>Pluto 布魯托</strong></font></td>
+<td>Hades 黑帝斯</td>
+<td>冥王</td>
+</tr>
+</tbody>
+</table>
+<p>除了天王星是採用希臘名 Uranus，地球則是採用古英文 Earth 之外，其他都是沿用羅馬的神名<br>冥王星現在已被從九大行星除名，目前為八大行星<br>中國古代並沒有天王、海王、冥王星，所以中文名稱是近代直接中譯得來的</p>
+<p><br></p>
+<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><ul>
+<li><a href="http://blog.sina.com.tw/6773/article.php?entryid=9134" target="_blank" rel="noopener">http://blog.sina.com.tw/6773/article.php?entryid=9134</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E6%98%9F%E6%9C%9F" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/%E6%98%9F%E6%9C%9F</a></li>
+<li><a href="http://chrissky21.pixnet.net/blog/post/3151458-%E9%97%9C%E6%96%BC%E4%B9%9D%E5%A4%A7%E8%A1%8C%E6%98%9F%E3%80%82" target="_blank" rel="noopener">http://chrissky21.pixnet.net/blog/post/3151458-%E9%97%9C%E6%96%BC%E4%B9%9D%E5%A4%A7%E8%A1%8C%E6%98%9F%E3%80%82</a></li>
+<li><a href="http://blog.roodo.com/biofive/archives/36251433.html" target="_blank" rel="noopener">http://blog.roodo.com/biofive/archives/36251433.html</a></li>
+<li><a href="http://www.crowl.org/lawrence/time/days.html" target="_blank" rel="noopener">http://www.crowl.org/lawrence/time/days.html</a></li>
+<li><a href="http://www.snzlkfb.net/system/2015/08/03/010169069.shtml" target="_blank" rel="noopener">http://www.snzlkfb.net/system/2015/08/03/010169069.shtml</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Terra" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Terra</a></li>
+<li><a href="https://tw.answers.yahoo.com/question/index?qid=20060608000012KK15886" target="_blank" rel="noopener">https://tw.answers.yahoo.com/question/index?qid=20060608000012KK15886</a></li>
+</ul>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/misc/naming-of-planets-and-days/" data-id="cjfwxuu5v000tioonbwzqqt8t" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/misc/naming-of-planets-and-days/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/misc/naming-of-planets-and-days/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <article id="post-chrome-cannot-upgrade-automatically" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/MAC/others/chrome-cannot-upgrade-automatically/">Chrome 自動更新永遠失敗</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/MAC/others/chrome-cannot-upgrade-automatically/">
+            <time datetime="2015-11-28T01:22:48.000Z" itemprop="datePublished">2015-11-27</time>
+        </a>
+    </div>
+
+
+                    
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a>
+    </div>
+
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/Chrome/">Chrome</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <img src="/blog/MAC/others/chrome-cannot-upgrade-automatically/chrome.png" title="Chrome">
+<p>前一陣子有發現 Chrome 瀏覽器的版本總是停留在舊的 43 版</p>
+<p>然後打開 <code>關於 Google Chrome</code> 的頁面，也無法手動更新</p>
+<p>我按照 Chrome 官方的文件步驟，也無法解決問題</p>
+<p><a href="https://support.google.com/chrome/answer/111996?hl=zh-Hant" target="_blank" rel="noopener">修正 Chrome 更新問題與更新失敗問題</a></p>
+<p>我的 Mac 並沒有存在惡意軟體，重開 Chrome、重開電腦也沒用</p>
+<p>最後只能重新下載安裝 Chrome，強制更新到最新的 44 版</p>
+<img src="/blog/MAC/others/chrome-cannot-upgrade-automatically/about_chrome.png" title="關於 Google Chrome">
+<p><br></p>
+<p>但是過了一陣子，又突然發現 Chrome 遲遲停留在 44 版，但卻沒有更新到 46 版</p>
+<p>後來我上網終於找到了一個可行的解決方案</p>
+<p><a href="http://iphone4.tw/forums/showthread.php?t=125277" target="_blank" rel="noopener">http://iphone4.tw/forums/showthread.php?t=125277</a></p>
+<p>其作法是將 <code>GoogleSoftwareUpdate</code> 刪除，然後迫使 Google Chrome 重新安裝 <code>GoogleSoftwareUpdate</code></p>
+<p>這裡要注意的是，新版的 Google Chrome 已經將檔案 <code>install.py</code> 改名為 <code>ksinstall</code></p>
+<img src="/blog/MAC/others/chrome-cannot-upgrade-automatically/ksinstall.png" title="ksinstall">
+<p><br></p>
+<h1 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h1><ul>
+<li>開啟終端機，執行以下的指令（會分別刪除 <strong><em>使用者目錄</em></strong> 及 <strong><em>根目錄</em></strong> 底下 <code>GoogleSoftwareUpdate</code>）</li>
+<li>接著再重開 Chrome 就可以正常自動更新了</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">sudo ~/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/ksinstall --uninstall</div><div class="line">sudo /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/ksinstall --uninstall</div><div class="line">sudo rm -rf ~/Library/Google/GoogleSoftwareUpdate</div><div class="line">sudo rm -rf /Library/Google/GoogleSoftwareUpdate</div></pre></td></tr></table></figure>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://zlargon.github.io/blog/MAC/others/chrome-cannot-upgrade-automatically/" data-id="cjfwxuu4j0002ioonjrx4dm1q" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://zlargon.github.io/blog/MAC/others/chrome-cannot-upgrade-automatically/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://zlargon.github.io/blog/MAC/others/chrome-cannot-upgrade-automatically/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+    <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/blog/">&laquo; Prev</a><a class="page-number" href="/blog/">1</a><span class="page-number current">2</span><a class="page-number" href="/blog/page/3/">3</a><a class="page-number" href="/blog/page/4/">4</a><a class="extend next" rel="next" href="/blog/page/3/">Next &raquo;</a>
+    </nav>
+</section>
+            
+                <aside id="sidebar">
+   
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">recent</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/reinstall-mac/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/reinstall-mac/" class="title">Mac Reinstallation Note</a></p>
+                            <p class="item-date"><time datetime="2018-04-12T16:05:43.000Z" itemprop="datePublished">2018-04-12</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/redmine-backup/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/redmine-backup/redmine_and_mysql.png)" alt="Redmine Backup" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/redmine-backup/" class="title">Redmine Backup</a></p>
+                            <p class="item-date"><time datetime="2018-04-11T23:08:32.000Z" itemprop="datePublished">2018-04-11</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/how-to-reset-password-in-redmine/redmine_cannot_login.png)" alt="How to Reset Password in Redmine" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/how-to-reset-password-in-redmine/" class="title">How to Reset Password in Redmine</a></p>
+                            <p class="item-date"><time datetime="2018-01-08T01:41:48.000Z" itemprop="datePublished">2018-01-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/Redmine/install-redmine-on-mac/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/Redmine/install-redmine-on-mac/redmine.png)" alt="Install Redmine on Mac" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/Redmine/">Redmine</a></p>
+                            <p class="item-title"><a href="/blog/Redmine/install-redmine-on-mac/" class="title">Install Redmine on Mac</a></p>
+                            <p class="item-date"><time datetime="2017-10-10T23:46:51.000Z" itemprop="datePublished">2017-10-10</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/blog/MAC/others/mac-camera-not-works/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/blog/MAC/others/mac-camera-not-works/there_is_no_connected_camera.jpg)" alt="Mac 攝影機無法連接" class="thumbnail-image"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/blog/categories/MAC/">MAC</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/blog/categories/MAC/others/">others</a></p>
+                            <p class="item-title"><a href="/blog/MAC/others/mac-camera-not-works/" class="title">Mac 攝影機無法連接</a></p>
+                            <p class="item-date"><time datetime="2017-03-22T09:01:16.000Z" itemprop="datePublished">2017-03-22</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/">MAC</a><span class="category-list-count">14</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/others/">others</a><span class="category-list-count">7</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/MAC/tools/">tools</a><span class="category-list-count">7</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/Redmine/">Redmine</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/TOEFL/">TOEFL</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/">iOS</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/iOS/others/">others</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/blog/categories/misc/">misc</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2018/01/">January 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/10/">October 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2017/03/">March 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/09/">September 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/06/">June 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/04/">April 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/11/">November 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/10/">October 2015</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+        </div>
+    </div>
+
+    
+        
+    <div class="widget-wrap">
+        <h3 class="widget-title">tag cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/blog/tags/Alfred/" style="font-size: 10px;">Alfred</a> <a href="/blog/tags/Android/" style="font-size: 10px;">Android</a> <a href="/blog/tags/AppCleaner/" style="font-size: 10px;">AppCleaner</a> <a href="/blog/tags/BetterTouchTool/" style="font-size: 15px;">BetterTouchTool</a> <a href="/blog/tags/Camera/" style="font-size: 10px;">Camera</a> <a href="/blog/tags/CheatSheet/" style="font-size: 10px;">CheatSheet</a> <a href="/blog/tags/Chrome/" style="font-size: 15px;">Chrome</a> <a href="/blog/tags/Karabiner/" style="font-size: 15px;">Karabiner</a> <a href="/blog/tags/LadioCast/" style="font-size: 10px;">LadioCast</a> <a href="/blog/tags/Listchack/" style="font-size: 10px;">Listchack</a> <a href="/blog/tags/MAC/" style="font-size: 15px;">MAC</a> <a href="/blog/tags/Memory-Clean/" style="font-size: 10px;">Memory Clean</a> <a href="/blog/tags/MySQL/" style="font-size: 10px;">MySQL</a> <a href="/blog/tags/Nally/" style="font-size: 10px;">Nally</a> <a href="/blog/tags/Parallels-Desktop/" style="font-size: 10px;">Parallels Desktop</a> <a href="/blog/tags/Photos/" style="font-size: 10px;">Photos</a> <a href="/blog/tags/Quick-Time/" style="font-size: 10px;">Quick Time</a> <a href="/blog/tags/RarGenie/" style="font-size: 10px;">RarGenie</a> <a href="/blog/tags/Redmine/" style="font-size: 20px;">Redmine</a> <a href="/blog/tags/Skim/" style="font-size: 10px;">Skim</a> <a href="/blog/tags/Skitch/" style="font-size: 10px;">Skitch</a> <a href="/blog/tags/Soundflower/" style="font-size: 10px;">Soundflower</a> <a href="/blog/tags/SublimeText/" style="font-size: 10px;">SublimeText</a> <a href="/blog/tags/TOEFL/" style="font-size: 15px;">TOEFL</a> <a href="/blog/tags/TeamViewer/" style="font-size: 10px;">TeamViewer</a> <a href="/blog/tags/TextWrangler/" style="font-size: 10px;">TextWrangler</a> <a href="/blog/tags/VLC/" style="font-size: 10px;">VLC</a> <a href="/blog/tags/Xcode/" style="font-size: 10px;">Xcode</a> <a href="/blog/tags/brew/" style="font-size: 10px;">brew</a> <a href="/blog/tags/git/" style="font-size: 10px;">git</a> <a href="/blog/tags/iPhoto/" style="font-size: 15px;">iPhoto</a> <a href="/blog/tags/iSight/" style="font-size: 10px;">iSight</a> <a href="/blog/tags/iTerm2/" style="font-size: 15px;">iTerm2</a> <a href="/blog/tags/iTunes/" style="font-size: 15px;">iTunes</a> <a href="/blog/tags/repo/" style="font-size: 10px;">repo</a> <a href="/blog/tags/中文輸入法/" style="font-size: 10px;">中文輸入法</a> <a href="/blog/tags/分類字彙/" style="font-size: 10px;">分類字彙</a> <a href="/blog/tags/加試/" style="font-size: 10px;">加試</a> <a href="/blog/tags/字神帝國/" style="font-size: 10px;">字神帝國</a> <a href="/blog/tags/惡意軟體/" style="font-size: 10px;">惡意軟體</a> <a href="/blog/tags/星期/" style="font-size: 10px;">星期</a> <a href="/blog/tags/曜日/" style="font-size: 10px;">曜日</a> <a href="/blog/tags/神話/" style="font-size: 10px;">神話</a> <a href="/blog/tags/行星/" style="font-size: 10px;">行星</a>
+        </div>
+    </div>
+
+    
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+            
+        </div>
+        <footer id="footer">
+    <div class="outer">
+        <div id="footer-info" class="inner">
+            &copy; 2018 zlargon<br>
+            Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'zlargon';
+    
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+    
+        <script src="/blog/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    
+
+
+<!-- Custom Scripts -->
+<script src="/blog/js/main.js"></script>
+
+    </div>
+</body>
+</html>

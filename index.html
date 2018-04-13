@@ -253,7 +253,7 @@ ga('send', 'pageview');
 <p>(3) <strong>Reinstall macOS</strong><br><img src="/blog/MAC/others/reinstall-mac/recovery/reinstall.jpg"></p>
 <h2 id="2-iTerm2-download"><a href="#2-iTerm2-download" class="headerlink" title="2. iTerm2 (download)"></a>2. iTerm2 (<a href="https://www.iterm2.com/downloads.html" target="_blank" rel="noopener">download</a>)</h2><p>(1) <strong>Reuse Session’s Directory</strong><br><img src="/blog/MAC/others/reinstall-mac/iterm/reuse-session-directory.png"></p>
 <p>(2) <strong>Color Theme</strong><br><img src="/blog/MAC/others/reinstall-mac/iterm/theme-tango-dark.png"></p>
-<h2 id="3-Terminal"><a href="#3-Terminal" class="headerlink" title="3. Terminal"></a>3. Terminal</h2><p>(1) edit <code>~/.bash_profile</code><br><figure class="highlight bash"><figcaption><span>~/.bash_profile</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># enables color in the terminal bash shell</span></div><div class="line"><span class="built_in">export</span> CLICOLOR=1</div><div class="line"> </div><div class="line"><span class="comment"># sets up the color scheme for list</span></div><div class="line"><span class="built_in">export</span> LSCOLORS=ExFxCxDxBxegedabagacad</div><div class="line"> </div><div class="line"><span class="comment"># enables color for iTerm</span></div><div class="line"><span class="built_in">export</span> TERM=xterm-color</div><div class="line"><span class="built_in">export</span> TERM=<span class="string">"xterm-color"</span></div><div class="line">PS1=<span class="string">'\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '</span></div><div class="line"> </div><div class="line"><span class="comment"># sets up proper alias commands when called</span></div><div class="line"><span class="built_in">alias</span> ls=<span class="string">'ls -vG'</span></div><div class="line"><span class="built_in">alias</span> ll=<span class="string">'ls -al'</span></div><div class="line"><span class="built_in">alias</span> la=<span class="string">'ls -a'</span></div><div class="line"><span class="built_in">alias</span> vi=<span class="string">'vim'</span></div></pre></td></tr></table></figure></p>
+<h2 id="3-Terminal"><a href="#3-Terminal" class="headerlink" title="3. Terminal"></a>3. Terminal</h2><p>(1) edit <code>~/.bash_profile</code><br><figure class="highlight bash"><figcaption><span>~/.bash_profile</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># enables color in the terminal bash shell</span></div><div class="line"><span class="built_in">export</span> CLICOLOR=1</div><div class="line"> </div><div class="line"><span class="comment"># sets up the color scheme for list</span></div><div class="line"><span class="built_in">export</span> LSCOLORS=ExFxCxDxBxegedabagacad</div><div class="line"> </div><div class="line"><span class="comment"># enables color for iTerm</span></div><div class="line"><span class="built_in">export</span> TERM=xterm-color</div><div class="line"><span class="built_in">export</span> TERM=<span class="string">"xterm-color"</span></div><div class="line">PS1=<span class="string">'\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '</span></div><div class="line"> </div><div class="line"><span class="comment"># sets up proper alias commands when called</span></div><div class="line"><span class="built_in">alias</span> ls=<span class="string">'ls -vG'</span></div><div class="line"><span class="built_in">alias</span> ll=<span class="string">'ls -al'</span></div><div class="line"><span class="built_in">alias</span> la=<span class="string">'ls -a'</span></div><div class="line"><span class="built_in">alias</span> vi=<span class="string">'vim'</span></div><div class="line"> </div><div class="line"><span class="comment"># mkdir + cd</span></div><div class="line"><span class="keyword">function</span> mkcd &#123;</div><div class="line">  <span class="keyword">if</span> [ ! -n <span class="string">"<span class="variable">$1</span>"</span> ]; <span class="keyword">then</span></div><div class="line">    <span class="built_in">echo</span> <span class="string">"Enter a directory name"</span></div><div class="line">  <span class="keyword">elif</span> [ <span class="_">-d</span> <span class="variable">$1</span> ]; <span class="keyword">then</span></div><div class="line">    <span class="built_in">echo</span> <span class="string">"\`<span class="variable">$1</span>' already exists"</span></div><div class="line">  <span class="keyword">else</span></div><div class="line">    mkdir <span class="variable">$1</span> &amp;&amp; <span class="built_in">cd</span> <span class="variable">$1</span></div><div class="line">  <span class="keyword">fi</span></div><div class="line">&#125;</div><div class="line"> </div><div class="line"><span class="comment"># [macOS] Show/Hide the hidden files in Finder.</span></div><div class="line"><span class="comment"># add this function to '~/.bash_profile' and reopen terminal.</span></div><div class="line"><span class="comment"># Usage: show-file                          -&gt; show</span></div><div class="line"><span class="comment">#        show-file 0 / off / hide / false   -&gt; hide</span></div><div class="line">show-<span class="function"><span class="title">file</span></span> () &#123;</div><div class="line">    opt=$(<span class="built_in">echo</span> <span class="variable">$1</span> | tr <span class="string">'[:upper:]'</span> <span class="string">'[:lower:]'</span>)    <span class="comment"># transfer into lowercase</span></div><div class="line"> </div><div class="line">    <span class="comment"># Hide Files</span></div><div class="line">    <span class="keyword">if</span> [ <span class="string">"<span class="variable">$opt</span>"</span> = <span class="string">"off"</span> ] || [ <span class="string">"<span class="variable">$opt</span>"</span> = <span class="string">"0"</span> ] || [ <span class="string">"<span class="variable">$opt</span>"</span> = <span class="string">"false"</span> ] || [ <span class="string">"<span class="variable">$opt</span>"</span> = <span class="string">"hide"</span> ] ; <span class="keyword">then</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"Hide all the hidden files in Finder."</span></div><div class="line">        defaults write com.apple.finder AppleShowAllFiles FALSE</div><div class="line">        killall Finder</div><div class="line">        <span class="built_in">return</span></div><div class="line">    <span class="keyword">fi</span></div><div class="line"> </div><div class="line">    <span class="comment"># Show all the Files</span></div><div class="line">    <span class="built_in">echo</span> <span class="string">"Show all the hidden files in Finder."</span></div><div class="line">    defaults write com.apple.finder AppleShowAllFiles TRUE</div><div class="line">    killall Finder</div><div class="line">    <span class="built_in">echo</span> <span class="string">"Use 'show-file off' to hide the hidden files in Finder."</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>(2) edit <code>~/.vimrc</code><br><figure class="highlight vim"><figcaption><span>~/.vimrc</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">syntax</span> <span class="keyword">on</span></div></pre></td></tr></table></figure></p>
 <h2 id="4-BetterTouchTool-download"><a href="#4-BetterTouchTool-download" class="headerlink" title="4. BetterTouchTool (download)"></a>4. BetterTouchTool (<a href="https://folivora.ai/downloads" target="_blank" rel="noopener">download</a>)</h2><p>(1) launch BetterTouchTool on startup<br><img src="/blog/MAC/others/reinstall-mac/bettertouchtool/launch.png"></p>
 <p>(2) Window Snapping<br><img src="/blog/MAC/others/reinstall-mac/bettertouchtool/window_snapping.png"></p>
@@ -313,6 +313,8 @@ ga('send', 'pageview');
 </table>
 <h2 id="10-Sublime-Text-3-download"><a href="#10-Sublime-Text-3-download" class="headerlink" title="10. Sublime Text 3 (download)"></a>10. Sublime Text 3 (<a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">download</a>)</h2><p>(1) Enable <a href="https://www.sublimetext.com/docs/3/osx_command_line.html" target="_blank" rel="noopener"><strong>Sublime Text Command Line</strong></a></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mkdir ~/bin</div><div class="line">ln <span class="_">-s</span> <span class="string">"/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"</span> ~/bin/subl</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><figcaption><span>~/.bash_profile</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># export ~/bin</span></div><div class="line"><span class="built_in">export</span> PATH=~/bin:<span class="variable">$PATH</span></div></pre></td></tr></table></figure>
+<img src="/blog/MAC/others/reinstall-mac/sublime_text/bash_profile.png">
 <p>(2) Enable <a href="https://packagecontrol.io/installation" target="_blank" rel="noopener"><strong>Sublime Package Control</strong></a></p>
 <p>Use <code>Ctrl + `</code> to open the console and paste the code in it.<br><img src="/blog/MAC/others/reinstall-mac/sublime_text/package_control.png"></p>
 <p>(3) <strong>Install Packages</strong></p>
@@ -369,7 +371,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/MAC/others/reinstall-mac/" data-id="cjfx7826w00150qon2zenr8ms" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/MAC/others/reinstall-mac/" data-id="cjfx7sys70012a5onqijjgo7x" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -514,7 +516,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/Redmine/redmine-backup/" data-id="cjfx7826v00120qone5z51r2j" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/Redmine/redmine-backup/" data-id="cjfx7sys5000za5on0r3ax5rk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -655,7 +657,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/Redmine/how-to-reset-password-in-redmine/" data-id="cjfx7826800090qon6rs5l3js" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/Redmine/how-to-reset-password-in-redmine/" data-id="cjfx7syrb0006a5onq0dja7zo" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -804,7 +806,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/Redmine/install-redmine-on-mac/" data-id="cjfx7826b000c0qon25mb88c7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/Redmine/install-redmine-on-mac/" data-id="cjfx7syrg0009a5onqzpdnunz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -949,7 +951,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/MAC/others/mac-camera-not-works/" data-id="cjfx7826j000i0qon4ply188t" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/MAC/others/mac-camera-not-works/" data-id="cjfx7syrn000fa5onkvyo7qbq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1230,7 +1232,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://zlargon.github.io/blog/TOEFL/how-to-memorize-vocabulary/" data-id="cjfx7826200060qone2ghb1kg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://zlargon.github.io/blog/TOEFL/how-to-memorize-vocabulary/" data-id="cjfx7syr70004a5onha0m8o6x" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding

@@ -28,7 +28,7 @@ You would need to install Redmine first. If not, please read the article {% link
 ## 3. create a `redmine_backup` database in MySQL and import the `redmine_backup.sql`
 
 ``` sql
-CREATE DATABASE redmine_backup CHARACTER SET utf8;
+CREATE DATABASE redmine_backup CHARACTER SET utf8mb4;
 ```
 
 ``` bash
@@ -37,7 +37,7 @@ $ mysql -u root -h localhost -p redmine_backup < redmine_backup.sql
 
 <script src="https://asciinema.org/a/asV0WMtsamiQ8YVEBRYQixCkR.js" id="asciicast-asV0WMtsamiQ8YVEBRYQixCkR" async></script>
 
-## 5. Setup the config file in Redmine Folder
+## 4. Setup the config file in Redmine Folder
 
 Add `backup` config to `config/database.yml`:
 
@@ -53,6 +53,20 @@ backup:                     # production → backup
 ```
 
 <script src="https://asciinema.org/a/idldIYm2SiKm3aF1REqJ0wyY8.js" id="asciicast-idldIYm2SiKm3aF1REqJ0wyY8" async></script>
+
+## 5. Install Redmine (Optinal)
+
+``` bash
+sudo gem install bundler
+ 
+# execute under redmine's folder
+bundle install --without development test
+bundle exec rake generate_secret_token
+RAILS_ENV=backup bundle exec rake db:migrate
+ 
+# Don't do this. This only for new Redmine Database
+# RAILS_ENV=backup bundle exec rake redmine:load_default_data
+```
 
 ## 6. Run Redmine Server
 

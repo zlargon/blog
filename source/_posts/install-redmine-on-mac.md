@@ -25,12 +25,13 @@ brew install mysql
 ```
 
 ``` bash
-mysqladmin -u root password {yourpassword}
-mysql -u root -p     # login MySQL with password
+mysql.server start           # start mysql server
+mysqladmin -u root password  # enter your new passowrd at first time
+mysql -u root -p             # login MySQL with password
 ```
 
 ``` sql
-CREATE DATABASE redmine CHARACTER SET utf8;
+CREATE DATABASE redmine CHARACTER SET utf8mb4;
 CREATE USER 'redmine'@'localhost' IDENTIFIED BY 'my_password';
 GRANT ALL PRIVILEGES ON redmine.* TO 'redmine'@'localhost';
 ```
@@ -66,11 +67,36 @@ RAILS_ENV=production bundle exec rake redmine:load_default_data
 
 ### Trouble Shooting:
 
+(1) `mysql2 0.4.9`
+```
 An error occurred while installing mysql2 (0.4.9), and Bundler cannot continue.
 Make sure that `gem install mysql2 -v '0.4.9'` succeeds before bundling.
+```
 
+Solution:
 ``` bash
 xcode-select --install
+```
+
+(2) `rmagick 2.16.0`
+```
+Fetching rmagick 2.16.0
+Installing rmagick 2.16.0 with native extensions
+Errno::EACCES: Permission denied @ rb_sysopen - /usr/local/lib/ruby/gems/2.5.0/gems/rmagick-2.16.0/.editorconfig
+An error occurred while installing rmagick (2.16.0), and Bundler cannot continue.
+Make sure that `gem install rmagick -v '2.16.0'` succeeds before bundling.
+ 
+In Gemfile:
+  rmagick
+```
+
+Solution:
+``` bash
+brew install imagemagick@6
+brew link --force imagemagick@6
+echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.bash_profile
+ 
+sudo gem install rmagick -v '2.16.0'
 ```
 
 ## 5. Start Redmine

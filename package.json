@@ -8,7 +8,7 @@
   "scripts": {
     "config:theme": "cp themes/icarus_v0.2.yml themes/icarus/_config.yml",
     "start": "npm run config:theme; hexo clean; hexo server",
-    "deploy": "npm run config:theme; hexo clean; hexo generate --deploy"
+    "deploy": "git push -f; npm run config:theme; hexo clean; hexo generate --deploy"
   },
   "dependencies": {
     "hexo": "3.4.4",

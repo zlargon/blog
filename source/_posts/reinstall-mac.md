@@ -114,6 +114,9 @@ colorscheme gruvbox
 (3) Three Finger Tap = Mouse Middle Click
 {% asset_img "bettertouchtool/three_finger_tap.png" %}
 
+(4) Setup shortcut
+
+{% asset_img "bettertouchtool/setup_shortcut.png" %}
 
 ## 6. Trackpad
 
@@ -196,7 +199,8 @@ Search the name of packages.
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "ensure_newline_at_eof_on_save": true,
-  "auto_complete_selector": "source, text"
+  "auto_complete_selector": "source, text",
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"]
 }
 ```
 

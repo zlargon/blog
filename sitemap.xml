@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zlargon.github.io/blog/MAC/others/reinstall-mac/</loc>
+    
+    <lastmod>2018-06-24T05:06:34.351Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zlargon.github.io/blog/Redmine/redmine-backup/</loc>
     
     <lastmod>2018-04-20T17:48:31.000Z</lastmod>
@@ -16,21 +23,7 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/reinstall-mac/</loc>
-    
-    <lastmod>2018-04-20T16:30:57.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zlargon.github.io/blog/MAC/tools/recommended-tools/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/avoid-launch-iphoto-and-itune/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -44,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://zlargon.github.io/blog/MAC/others/avoid-launch-iphoto-and-itune/</loc>
+    
+    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zlargon.github.io/blog/iOS/others/ios-undeletable-photos/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
@@ -51,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/mac-camera-not-works/</loc>
+    <loc>https://zlargon.github.io/blog/MAC/tools/keyboard-setting/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/tools/keyboard-setting/</loc>
+    <loc>https://zlargon.github.io/blog/MAC/others/mac-camera-not-works/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -114,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zlargon.github.io/blog/MAC/tools/review-of-osx/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
@@ -128,7 +121,7 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/TOEFL/toefl-listening-plus-questions/</loc>
+    <loc>https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -136,6 +129,13 @@
   
   <url>
     <loc>https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/</loc>
+    
+    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zlargon.github.io/blog/TOEFL/toefl-listening-plus-questions/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     

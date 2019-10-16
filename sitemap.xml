@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zlargon.github.io/blog/MAC/tools/recommended-tools/</loc>
+    
+    <lastmod>2018-06-28T20:28:23.089Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zlargon.github.io/blog/MAC/others/reinstall-mac/</loc>
     
-    <lastmod>2018-06-24T05:06:34.351Z</lastmod>
+    <lastmod>2018-06-28T20:25:25.638Z</lastmod>
     
   </url>
   
@@ -23,14 +30,7 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/tools/recommended-tools/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zlargon.github.io/blog/Redmine/how-to-reset-password-in-redmine/</loc>
+    <loc>https://zlargon.github.io/blog/MAC/tools/review-of-osx/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/misc/naming-of-planets-and-days/</loc>
+    <loc>https://zlargon.github.io/blog/TOEFL/how-to-memorize-vocabulary/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -100,27 +100,6 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/TOEFL/how-to-memorize-vocabulary/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/how-to-remove-rargenie/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zlargon.github.io/blog/MAC/tools/review-of-osx/</loc>
-    
-    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zlargon.github.io/blog/MAC/others/selection-box-of-chinese-input-method-is-missing/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
@@ -128,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/</loc>
+    <loc>https://zlargon.github.io/blog/Redmine/how-to-reset-password-in-redmine/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -142,7 +121,28 @@
   </url>
   
   <url>
+    <loc>https://zlargon.github.io/blog/MAC/others/stop-android-file-transfer-auto-starting/</loc>
+    
+    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zlargon.github.io/blog/MAC/tools/touchpad-setting/</loc>
+    
+    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zlargon.github.io/blog/misc/naming-of-planets-and-days/</loc>
+    
+    <lastmod>2018-04-12T16:00:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zlargon.github.io/blog/MAC/others/how-to-remove-rargenie/</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/categories/index.html</loc>
+    <loc>https://zlargon.github.io/blog/tags/index.html</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zlargon.github.io/blog/tags/index.html</loc>
+    <loc>https://zlargon.github.io/blog/categories/index.html</loc>
     
     <lastmod>2018-04-12T16:00:54.000Z</lastmod>
     

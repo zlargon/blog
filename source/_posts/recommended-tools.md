@@ -7,13 +7,11 @@ tags:
     - Alfred
     - AppCleaner
     - BetterTouchTool
-    - CheatSheet
     - Chrome
     - Karabiner
     - Memory Clean
     - Nally
     - Parallels Desktop
-    - Skim
     - Skitch
     - TeamViewer
     - VLC
@@ -24,16 +22,14 @@ tags:
 | 1 	| Alfred 2 			| 自訂指令熱鍵神器					| ★★★★★★ 	|
 | 2 	| AppCleaner 		| 完整移除 App 及相關資料			| ★★★★★ 	|
 | 3 	| BetterTouchTool 	| 自訂觸控板設定、自動調整視窗大小	| ★★★★★★ 	|
-| 4 	| CheatSheet 		| 顯示應用程式的快捷鍵列表			| ★★★ 		|
-| 5 	| Chrome 			| 網頁瀏覽器						| ★★★★★ 	|
-| 6 	| Karabiner 		| 自訂鍵盤設定					| ★★★★★ 	|
-| 7 	| Memory Clean 		| 監控記憶體，釋放記憶體			| ★★★★ 		|
-| 8 	| Nally 			| BBS 瀏覽器						| ★★★★ 		|
-| 9 	| Parallels Desktop | 虛擬機 						| ★★★★ 		|
-| 10 	| Skim 				| PDF 預覽器						| ★★★★ 		|
-| 11 	| Skitch 			| 簡易圖文編輯軟體					| ★★★★★ 	|
-| 12 	| Teamviewer 		| 遠端桌面						| ★★★★★ 	|
-| 13 	| VLC 				| 多媒體播放器					| ★★★★★ 	|
+| 4 	| Chrome 			| 網頁瀏覽器						| ★★★★★ 	|
+| 5 	| Karabiner 		| 自訂鍵盤設定					| ★★★★★ 	|
+| 6 	| Memory Clean 		| 監控記憶體，釋放記憶體			| ★★★★ 		|
+| 7 	| Nally 			| BBS 瀏覽器						| ★★★★ 		|
+| 8 	| Parallels Desktop | 虛擬機 						| ★★★★ 		|
+| 9 	| Skitch 			| 簡易圖文編輯軟體					| ★★★★★ 	|
+| 10 	| Teamviewer 		| 遠端桌面						| ★★★★★ 	|
+| 11 	| VLC 				| 多媒體播放器					| ★★★★★ 	|
 
 <br>
 
@@ -92,23 +88,9 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 <br>
 
-{% asset_img "cheatsheet.png" "CheatSheet" %}
-
-# 4. CheatSheet （★★★）
-
-官方網站：http://www.mediaatelier.com/CheatSheet/
-
-顯示應用程式的快捷鍵列表
-
-對於 Mac 的新手來說，還不熟悉各個應用程式的快捷鍵，這會非常有幫助
-
-只要長按 `command` 鍵 3 秒鐘，就會跳出該應用程式的快捷鍵列表
-
-<br>
-
 {% asset_img "chrome.png" "Google Chrome" %}
 
-# 5. Chrome （★★★★★）
+# 4. Chrome （★★★★★）
 
 官方網站：https://www.google.com.tw/chrome/browser/desktop/
 
@@ -118,7 +100,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "karabiner.png" "Karabiner" %}
 
-# 6. Karabiner （★★★★★）
+# 5. Karabiner （★★★★★）
 
 自訂鍵盤設定
 
@@ -128,7 +110,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "memory_clean.png" "Memory Clean" %}
 
-# 7. Memory Clean （★★★★）
+# 6. Memory Clean （★★★★）
 
 官方網站：https://fiplab.com/apps/memory-clean-for-mac
 
@@ -142,7 +124,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "nally.png" "Nally" %}
 
-# 8. Nally （★★★★）
+# 7. Nally （★★★★）
 
 官方網站：http://yllan.org/app/Nally/
 
@@ -158,7 +140,7 @@ Alfred 還有其他進階的功能，但是需要額外購買 `PowerPack` 的服
 
 {% asset_img "parallels_desktop.jpg" "Parallels Desktop" %}
 
-# 9. Parallels Desktop （★★★★）
+# 8. Parallels Desktop （★★★★）
 
 官方網站：http://www.parallels.com/tw/
 
@@ -204,19 +186,9 @@ Parallels Desktop 大約每次 Apple 發布新版的作業系統時，也會一�
 
 <br>
 
-{% asset_img "skim.png" "Skim" %}
-
-# 10. Skim （★★★★）
-
-官方網站：http://skim-app.sourceforge.net/
-
-我目前在使用的 PDF 預覽器，感覺滿順的
-
-<br>
-
 {% asset_img "skitch.png" "Skitch" %}
 
-# 11. Skitch （★★★★★）
+# 9. Skitch （★★★★★）
 
 官方網站：https://evernote.com/intl/zh-tw/skitch/
 
@@ -234,7 +206,7 @@ Skitch 也有推出 Android 跟 iOS 版本的 App
 
 {% asset_img "teamviewer.jpg" "TeamViewer" %}
 
-# 12. Teamviewer （★★★★★）
+# 10. Teamviewer （★★★★★）
 
 官方網站：https://www.teamviewer.com/zhTW/
 
@@ -248,7 +220,7 @@ Skitch 也有推出 Android 跟 iOS 版本的 App
 
 {% asset_img "vlc.png" "VLC" %}
 
-# 13. VLC （★★★★★）
+# 11. VLC （★★★★★）
 
 官方網站：http://www.videolan.org/vlc/
 

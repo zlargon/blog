@@ -292,7 +292,6 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 - [Memory Clean](https://itunes.apple.com/us/app/memory-clean-2-free-up-memory/id1114591412?mt=12)
 - [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 - [AppCleaner](http://www.freemacsoft.net/appcleaner/)
-- [Skim](http://skim-app.sourceforge.net/)
 - [Acrobat Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html)
 - [Teamviewer](https://www.teamviewer.us/)
 - [VLC](http://www.videolan.org/vlc/)
